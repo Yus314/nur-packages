@@ -16,7 +16,7 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  bizin = pkgs.callPackage ./pkgs/bizin { };
+  bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { };
   aquaskk = pkgs.callPackage ./pkgs/AquaSKK { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
