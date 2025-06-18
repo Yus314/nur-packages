@@ -7,7 +7,7 @@
 
 melpaBuild {
   inherit (source) pname src;
-  version = "unstable-2025-04-06";
+  version = "0.0.1";
 
   meta = {
     description = "Typst live preview minor mode for emacs";

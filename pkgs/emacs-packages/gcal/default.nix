@@ -6,7 +6,7 @@
 
 melpaBuild {
   inherit (source) pname src;
-  version = "unstable-2024-06-19";
+  version = "0.0.1";
 
   meta = {
     description = "Google Calendar Utilities for Emacs";

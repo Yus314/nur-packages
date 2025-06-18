@@ -8,7 +8,7 @@
 
 melpaBuild {
   inherit (source) pname src;
-  version = "unstable-2024-09-17";
+  version = "0.0.1";
 
   meta = {
     description = "Org links for emacs-slack (https://github.com/yuya373/emacs-slack";

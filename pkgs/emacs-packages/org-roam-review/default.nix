@@ -12,7 +12,7 @@
 melpaBuild {
   inherit (source) src;
   pname = "org-roam-review";
-  version = "unstable-2025-02-15";
+  version = "0.0.1";
 
   meta = {
     description = "Programs and libs that I haven't gotten around to formally packaging";
