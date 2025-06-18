@@ -21,10 +21,12 @@ stdenvNoCC.mkDerivation rec {
     runHook postInstall
   '';
 
-  meta = with lib; {
-    description = "Composite font of Hack, GenJyuu-Gothic and nerd-fonts";
-    homepage = "https://github.com/yuru7/HackGen";
-    license = licenses.ofl;
-    platforms = platforms.all;
+  meta = {
+    description = "Bizin Gothic は、ユニバーサルデザインフォントの BIZ UDゴシック と英文フォント Inconsolata を合成したプログラミング向けフォントです";
+    homepage = "https://github.com/yuru7/bizin-gothic";
+    license = lib.licenses.ofl;
+    maintainers = with lib.maintainers; [ ];
+    mainProgram = "bizin-gothic";
+    platforms = lib.platforms.all;
   };
 }

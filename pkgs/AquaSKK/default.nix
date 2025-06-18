@@ -1,4 +1,5 @@
 {
+  lib,
   stdenv,
   fetchurl,
   cpio,
@@ -41,5 +42,15 @@ stdenv.mkDerivation rec {
 
     runHook postInstall
   '';
+
+  meta = {
+    description = "An input method without morphological analysis";
+    homepage = "https://github.com/codefirst/aquaskk";
+    changelog = "https://github.com/codefirst/aquaskk/blob/${src.rev}/ChangeLog";
+    license = lib.licenses.gpl2Only;
+    maintainers = with lib.maintainers; [ ];
+    mainProgram = "aquaskk";
+    platforms = lib.platforms.all;
+  };
 
 }
