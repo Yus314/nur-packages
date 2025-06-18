@@ -22,6 +22,7 @@ in
   bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { };
   aquaskk = pkgs.callPackage ./pkgs/AquaSKK { };
   qutebrowser = pkgs.qutebrowser;
+  vivaldi = pkgs.vivaldi;
 
   nurEmacsPackages = pkgs.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/emacs-packages {
