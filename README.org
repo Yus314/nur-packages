@@ -22,7 +22,7 @@ My personal [[https://github.com/nix-community/NUR][NUR]] repository
         }, ${ps.${p}.meta.license.shortName}"
       )
       (
-        builtins.filter (x: !(x == "lib" || x == "modules" || x == "overlays" || x == "vimPlugins")) (
+        builtins.filter (x: !(x == "lib" || x == "modules" || x == "overlays" || x == "emacsPackages")) (
           builtins.attrNames ps
         )
       )
@@ -33,4 +33,4 @@ My personal [[https://github.com/nix-community/NUR][NUR]] repository
 | Package               | Description                                                                                                                        | Homepage                                   | Platforms                                                     | License  |
 | aquaskk-4.7.3         | An input method without morphological analysis                                                                                     | https://github.com/codefirst/aquaskk       | x86_64-darwin / aarch64-darwin / aarch64-linux / x86_64-linux | gpl2Only |
 | bizin-gothic-nf-0.0.4 | Bizin Gothic は、ユニバーサルデザインフォントの BIZ UDゴシック と英文フォント Inconsolata を合成したプログラミング向けフォントです | https://github.com/yuru7/bizin-gothic      | x86_64-darwin / aarch64-darwin / aarch64-linux / x86_64-linux | ofl      |
-| qutebrowser-3.1.0     | Keyboard-focused browser with a minimal GUI                                                                                        | https://github.com/qutebrowser/qutebrowser | x86_64-darwin / aarch64-darwin / aarch64-linux / x86_64-linux | gpl3Plus |
+| qutebrowser-3.5.1     | Keyboard-focused browser with a minimal GUI                                                                                        | https://github.com/qutebrowser/qutebrowser | x86_64-darwin / aarch64-darwin / aarch64-linux / x86_64-linux | gpl3Plus |

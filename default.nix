@@ -7,8 +7,11 @@
 #     nix-build -A mypackage
 
 {
-  pkgs ? import <nixpkgs> { },
+  pkgs ? import <nixpkgs> { overlays = builtins.attrValues (import ./overlays); },
 }:
+let
+  sources = pkgs.callPackage ./_sources/generated.nix { };
+in
 
 {
   # The `lib`, `modules`, and `overlays` names are special
@@ -18,7 +21,14 @@
 
   bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { };
   aquaskk = pkgs.callPackage ./pkgs/AquaSKK { };
-  # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
-  # ...
   qutebrowser = pkgs.qutebrowser;
+  emacsPackages = pkgs.emacs.pkgs.overrideScope (
+    final: prev:
+    # ./pkgs/emacs-packages を評価し、その結果（属性セット）を返す
+    pkgs.callPackage ./pkgs/emacs-packages {
+      inherit sources;
+      # `prev` を使うことで、このemacsのスコープに合った正しい`melpaBuild`を渡す
+      melpaBuild = prev.melpaBuild;
+    }
+  );
 }
