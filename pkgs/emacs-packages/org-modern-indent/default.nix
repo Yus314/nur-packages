@@ -5,7 +5,8 @@
 }:
 
 melpaBuild {
-  inherit (source) pname version src;
+  inherit (source) pname src;
+  version = 0.0 .1;
 
   ignoreCompilationError = false;
 
