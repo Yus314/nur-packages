@@ -20,4 +20,5 @@
   aquaskk = pkgs.callPackage ./pkgs/AquaSKK { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
+  qutebrowser = pkgs.qutebrowser;
 }
