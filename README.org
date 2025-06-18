@@ -22,7 +22,7 @@ My personal [[https://github.com/nix-community/NUR][NUR]] repository
         }, ${ps.${p}.meta.license.shortName}"
       )
       (
-        builtins.filter (x: !(x == "lib" || x == "modules" || x == "overlays" || x == "emacsPackages")) (
+        builtins.filter (x: !(x == "lib" || x == "modules" || x == "overlays" || x == "nurEmacsPackages")) (
           builtins.attrNames ps
         )
       )

@@ -22,11 +22,11 @@ in
   bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { };
   aquaskk = pkgs.callPackage ./pkgs/AquaSKK { };
   qutebrowser = pkgs.qutebrowser;
-  emacsPackages = pkgs.emacs.pkgs.overrideScope (
-    final: prev:
+
+  nurEmacsPackages = pkgs.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/emacs-packages {
       inherit sources;
-      melpaBuild = prev.melpaBuild;
+      epkgs = pkgs.emacs.pkgs;
     }
   );
 }
