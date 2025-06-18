@@ -14,7 +14,7 @@ in
     else
       let
         source =
-          (import ../_sources/generated.nix {
+          (import ../../_sources/generated.nix {
             inherit (prev)
               fetchgit
               fetchurl
