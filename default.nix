@@ -20,7 +20,7 @@ in
   overlays = import ./overlays; # nixpkgs overlays
 
   bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { };
-  aquaskk = pkgs.callPackage ./pkgs/AquaSKK { };
+  aquaskk = pkgs.callPackage ./pkgs/AquaSKK { source = sources.aquaskk; };
   qutebrowser = pkgs.qutebrowser;
   vivaldi = pkgs.vivaldi;
 

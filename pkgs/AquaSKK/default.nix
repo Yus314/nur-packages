@@ -1,6 +1,7 @@
 {
   lib,
   stdenv,
+  source,
   fetchurl,
   cpio,
   undmg,
@@ -8,14 +9,7 @@
   ...
 }:
 stdenv.mkDerivation rec {
-  pname = "aquaskk";
-  version = "4.7.3"; # ビルドするAquaSKKのバージョン
-
-  # ソースコードをGitHubから取得します
-  src = fetchurl {
-    url = "https://github.com/codefirst/aquaskk/releases/download/4.7.6/AquaSKK-4.7.6.pkg";
-    sha256 = "sha256-8bDzAYOXS6zwG4uC5j+Ne2kW/SEwpEfO0dUSnJQjFmg=";
-  };
+  inherit (source) pname version src;
 
   unpackPhase = ''
     runHook preUnpack

@@ -31,3 +31,7 @@ fetch.url = "https://downloads.vivaldi.com/stable/Vivaldi.$ver.universal.dmg"
 src.github = "qutebrowser/qutebrowser"
 src.prefix = "v"
 fetch.url = "https://github.com/qutebrowser/qutebrowser/releases/download/v$ver/qutebrowser-$ver-arm64.dmg"
+
+[aquaskk]
+src.github_tag = "codefirst/aquaskk"
+fetch.url ="https://github.com/codefirst/aquaskk/releases/download/$ver/AquaSKK-$ver.pkg"
