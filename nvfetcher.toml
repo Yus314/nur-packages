@@ -32,6 +32,11 @@ src.github = "qutebrowser/qutebrowser"
 src.prefix = "v"
 fetch.url = "https://github.com/qutebrowser/qutebrowser/releases/download/v$ver/qutebrowser-$ver-arm64.dmg"
 
+[claude-code-ide]
+src.git = "https://github.com/manzaltu/claude-code-ide.el"
+src.branch = "main"
+fetch.github = "manzaltu/claude-code-ide.el"
+
 [aquaskk]
 src.github_tag = "codefirst/aquaskk"
 fetch.url ="https://github.com/codefirst/aquaskk/releases/download/$ver/AquaSKK-$ver.pkg"
