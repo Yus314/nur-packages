@@ -3,12 +3,13 @@
   melpaBuild,
   source,
   vterm,
+  websocket,
 }:
 melpaBuild {
   inherit (source) pname src;
   version = "0.1.0";
 
-  packageRequires = [ vterm ];
+  packageRequires = [ vterm websocket ];
 
   meta = {
     description = "IDE-like interface for Claude Code AI assistant in Emacs";
