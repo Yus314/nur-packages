@@ -17,9 +17,6 @@ builtins.listToAttrs (
     builtins.filter (n: !isReserved n) (builtins.attrNames nurAttrs)
   )
 )
-// {
-  emacsPackages = super.emacsPackages // nurAttrs.emacsPackages;
-}
 // super.lib.foldr (x: y: x // y) { } (
   super.lib.attrValues (super.lib.mapAttrs (k: v: v self super) (import ./overlays))
 )

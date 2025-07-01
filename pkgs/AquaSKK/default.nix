@@ -40,7 +40,7 @@ stdenv.mkDerivation rec {
   meta = {
     description = "An input method without morphological analysis";
     homepage = "https://github.com/codefirst/aquaskk";
-    changelog = "https://github.com/codefirst/aquaskk/blob/${src.rev}/ChangeLog";
+    changelog = "https://github.com/codefirst/aquaskk/blob/main/ChangeLog";
     license = lib.licenses.gpl2Only;
     maintainers = with lib.maintainers; [ ];
     mainProgram = "aquaskk";
