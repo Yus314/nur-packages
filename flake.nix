@@ -19,14 +19,18 @@
     {
       packages = forAllSystems (
         system:
-        import ./default.nix {
+        let
           pkgs = import nixpkgs {
             inherit system;
             overlays = builtins.attrValues (import ./overlays);
+            config.allowUnfree = true;
           };
-        }
+          allPkgs = import ./default.nix { inherit pkgs; };
+          isReserved = n: n == "lib" || n == "overlays" || n == "modules";
+        in
+        builtins.removeAttrs allPkgs (builtins.filter isReserved (builtins.attrNames allPkgs))
       );
-      overlays.default = import ./overlay.nix;
+      overlays.default = final: prev: import ./overlay.nix final prev;
 
       devShells = forAllSystems (system: {
         default =

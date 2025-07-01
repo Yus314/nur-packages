@@ -24,10 +24,29 @@ in
   qutebrowser = pkgs.qutebrowser;
   vivaldi = pkgs.vivaldi;
 
-  nurEmacsPackages = pkgs.recurseIntoAttrs (
-    pkgs.callPackage ./pkgs/emacs-packages {
-      inherit sources;
-      epkgs = pkgs.emacs.pkgs;
-    }
-  );
+  # Emacs packages
+  gcal = pkgs.callPackage ./pkgs/emacs-packages/gcal {
+    inherit (pkgs.emacs.pkgs) melpaBuild;
+    source = sources.gcal;
+  };
+  org-modern-indent = pkgs.callPackage ./pkgs/emacs-packages/org-modern-indent {
+    inherit (pkgs.emacs.pkgs) melpaBuild;
+    source = sources.org-modern-indent;
+  };
+  ol-emacs-slack = pkgs.callPackage ./pkgs/emacs-packages/ol-emacs-slack {
+    inherit (pkgs.emacs.pkgs) melpaBuild dash s;
+    source = sources.ol-emacs-slack;
+  };
+  org-roam-review = pkgs.callPackage ./pkgs/emacs-packages/org-roam-review {
+    inherit (pkgs.emacs.pkgs) melpaBuild dash org-drill org-roam ts ht;
+    source = sources.org-roam-review;
+  };
+  typst-preview = pkgs.callPackage ./pkgs/emacs-packages/typst-preview {
+    inherit (pkgs.emacs.pkgs) melpaBuild websocket;
+    source = sources.typst-preview;
+  };
+  claude-code-ide = pkgs.callPackage ./pkgs/emacs-packages/claude-code-ide {
+    inherit (pkgs.emacs.pkgs) melpaBuild vterm;
+    source = sources.claude-code-ide;
+  };
 }
