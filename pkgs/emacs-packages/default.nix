@@ -4,39 +4,22 @@
   sources,
 }:
 {
-  gcal = pkgs.callPackage ./gcal {
-    inherit (epkgs) melpaBuild;
+  gcal = epkgs.callPackage ./gcal {
     source = sources.gcal;
   };
-  org-modern-indent = pkgs.callPackage ./org-modern-indent {
-    inherit (epkgs) melpaBuild;
+  org-modern-indent = epkgs.callPackage ./org-modern-indent {
     source = sources.org-modern-indent;
   };
-  ol-emacs-slack = pkgs.callPackage ./ol-emacs-slack {
-    inherit (epkgs)
-      melpaBuild
-      dash
-      s
-      ;
+  ol-emacs-slack = epkgs.callPackage ./ol-emacs-slack {
     source = sources.ol-emacs-slack;
   };
-  org-roam-review = pkgs.callPackage ./org-roam-review {
-    inherit (epkgs)
-      melpaBuild
-      dash
-      org-drill
-      org-roam
-      ts
-      ht
-      ;
+  org-roam-review = epkgs.callPackage ./org-roam-review {
     source = sources.org-roam-review;
   };
-  typst-preview = pkgs.callPackage ./typst-preview {
-    inherit (epkgs) melpaBuild websocket;
+  typst-preview = epkgs.callPackage ./typst-preview {
     source = sources.typst-preview;
   };
-  claude-code-ide = pkgs.callPackage ./claude-code-ide {
-    inherit (epkgs) melpaBuild vterm;
+  claude-code-ide = epkgs.callPackage ./claude-code-ide {
     source = sources.claude-code-ide;
   };
 }
