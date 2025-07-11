@@ -25,10 +25,10 @@ in
   vivaldi = pkgs.vivaldi;
 
   #nurEmacsPackages = pkgs.recurseIntoAttrs (
-  emacsPackages = pkgs.recurseIntoAttrs (
-    pkgs.callPackage ./pkgs/emacs-packages {
-      inherit sources;
-      epkgs = pkgs.emacs.pkgs;
-    }
-  );
+  # emacsPackages = pkgs.recurseIntoAttrs (
+  #   pkgs.callPackage ./pkgs/emacs-packages {
+  #     inherit sources;
+  #     epkgs = pkgs.emacs.pkgs;
+  #   }
+  # );
 }
