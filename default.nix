@@ -24,6 +24,7 @@ in
   qutebrowser = pkgs.qutebrowser;
   vivaldi = pkgs.vivaldi;
 
+  emacsPackages = pkgs.emacsPackages;
   #nurEmacsPackages = pkgs.recurseIntoAttrs (
   # emacsPackages = pkgs.recurseIntoAttrs (
   #   pkgs.callPackage ./pkgs/emacs-packages {
