@@ -79,22 +79,22 @@
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "69918d5f5b77032d8a5f796793b8030b4f19f5d6";
+    version = "259f4e8097bcdde476d18c37de8c25af1776c88c";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "69918d5f5b77032d8a5f796793b8030b4f19f5d6";
+      rev = "259f4e8097bcdde476d18c37de8c25af1776c88c";
       fetchSubmodules = false;
-      sha256 = "sha256-0l8wo6RoTuSlMbPNud34CslorVGG9/KajX6fH5XDKaI=";
+      sha256 = "sha256-oKyRAN7FyStFBcscZOvd/8Wcs1lvCevn/EcK8NqOoXw=";
     };
-    date = "2025-04-06";
+    date = "2025-07-09";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.4.3684.55";
+    version = "7.5.3735.47";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.4.3684.55.universal.dmg";
-      sha256 = "sha256-g7ZfnV8vXSwYPYeSW/4bkackLVmTdH7a3TB5aOdMuTg=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.47.universal.dmg";
+      sha256 = "sha256-fFjgmJY1fC85O0khOWpbSRxIvBHKuDda824TnBd+CrY=";
     };
   };
 }
