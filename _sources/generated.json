@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-8bDzAYOXS6zwG4uC5j+Ne2kW/SEwpEfO0dUSnJQjFmg=",
+            "sha256": "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=",
             "type": "url",
-            "url": "https://github.com/codefirst/aquaskk/releases/download/4.7.6/AquaSKK-4.7.6.pkg"
+            "url": "https://github.com/codefirst/aquaskk/releases/download/4.7.7/AquaSKK-4.7.7.pkg"
         },
-        "version": "4.7.6"
+        "version": "4.7.7"
     },
     "claude-code-ide": {
         "cargoLocks": null,

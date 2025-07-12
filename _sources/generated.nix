@@ -3,10 +3,10 @@
 {
   aquaskk = {
     pname = "aquaskk";
-    version = "4.7.6";
+    version = "4.7.7";
     src = fetchurl {
-      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.6/AquaSKK-4.7.6.pkg";
-      sha256 = "sha256-8bDzAYOXS6zwG4uC5j+Ne2kW/SEwpEfO0dUSnJQjFmg=";
+      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.7/AquaSKK-4.7.7.pkg";
+      sha256 = "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=";
     };
   };
   claude-code-ide = {
