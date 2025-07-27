@@ -11,15 +11,15 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "3f522a3fa89dd2c4596762e7cf78a9c22dddc290";
+    version = "c8d0ca120073cb5bcca0fdfa83a8e5f46c5b0fb3";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "3f522a3fa89dd2c4596762e7cf78a9c22dddc290";
+      rev = "c8d0ca120073cb5bcca0fdfa83a8e5f46c5b0fb3";
       fetchSubmodules = false;
-      sha256 = "sha256-PiTM0Hl/oLLo1c7/+/yDckM6v8cpzVL0dj12yEVRgfc=";
+      sha256 = "sha256-yEXyrNy0WKaMiW75znlogl9QAeo/TQGUU/I8rXQ/Y3E=";
     };
-    date = "2025-07-25";
+    date = "2025-07-27";
   };
   gcal = {
     pname = "gcal";
