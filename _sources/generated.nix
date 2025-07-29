@@ -11,13 +11,13 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "6eae519bf316b537472d1476b13c4030033ad54c";
+    version = "953bbf5b1948658d9db5f6e6c8cfa0731fbcd08c";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "6eae519bf316b537472d1476b13c4030033ad54c";
+      rev = "953bbf5b1948658d9db5f6e6c8cfa0731fbcd08c";
       fetchSubmodules = false;
-      sha256 = "sha256-pnHxlnU8x5EL7Sz+18YwjSwI/qcMcYipM2ooz9TTq2s=";
+      sha256 = "sha256-pud7aRFwpEXzPnr5a6m9/YNnHJ6G9FXmeLCunpJNg/M=";
     };
     date = "2025-07-28";
   };
