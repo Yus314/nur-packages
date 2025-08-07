@@ -36,7 +36,13 @@
     source = sources.typst-preview;
   };
   claude-code-ide = pkgs.callPackage ./claude-code-ide {
-    inherit (epkgs) melpaBuild vterm websocket flycheck;
+    inherit (epkgs)
+      melpaBuild
+      vterm
+      eat
+      websocket
+      flycheck
+      ;
     source = sources.claude-code-ide;
   };
 }
