@@ -41,6 +41,7 @@
       vterm
       eat
       websocket
+      web-server
       flycheck
       ;
     source = sources.claude-code-ide;

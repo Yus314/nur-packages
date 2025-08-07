@@ -5,6 +5,7 @@
   vterm,
   eat,
   websocket,
+  web-server,
   flycheck,
 }:
 melpaBuild {
@@ -13,7 +14,9 @@ melpaBuild {
 
   packageRequires = [
     vterm
+    eat
     websocket
+    web-server
     flycheck
   ];
 
