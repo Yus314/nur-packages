@@ -28,12 +28,12 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "cbe840106d116cf38e4741370cb820e424149882",
-            "sha256": "sha256-ky2J18lmqDYOSN8OAmtvBRO0EfUvU9rXyJHTQa/f7OA=",
+            "rev": "7e704dc4ce6f91ed5aab200bc0afffa67658993c",
+            "sha256": "sha256-MN09aQAqStR4CCVslviqUgNVZzxllBbWkkmSKWUNJoA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "cbe840106d116cf38e4741370cb820e424149882"
+        "version": "7e704dc4ce6f91ed5aab200bc0afffa67658993c"
     },
     "gcal": {
         "cargoLocks": null,
