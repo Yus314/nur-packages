@@ -24,6 +24,16 @@ in
   qutebrowser = pkgs.qutebrowser;
   vivaldi = pkgs.vivaldi;
 
+  # Input method packages
+  cskk = pkgs.callPackage ./pkgs/cskk { source = sources.cskk or null; };
+
+  # Niri packages
+  niri-taskbar = pkgs.callPackage ./pkgs/niri-taskbar { source = sources.niri-taskbar or null; };
+
+  # Nyxt packages
+  nx-rbw = pkgs.callPackage ./pkgs/nx-rbw { };
+  nx-zotero = pkgs.callPackage ./pkgs/nx-zotero { source = sources.nx-zotero or null; };
+
   nurEmacsPackages = pkgs.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/emacs-packages {
       inherit sources;
