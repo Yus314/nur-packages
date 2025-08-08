@@ -11,15 +11,26 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "7e704dc4ce6f91ed5aab200bc0afffa67658993c";
+    version = "a0d7cc73a3f32c726deffeaa33de23f8c382c46d";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "7e704dc4ce6f91ed5aab200bc0afffa67658993c";
+      rev = "a0d7cc73a3f32c726deffeaa33de23f8c382c46d";
       fetchSubmodules = false;
-      sha256 = "sha256-MN09aQAqStR4CCVslviqUgNVZzxllBbWkkmSKWUNJoA=";
+      sha256 = "sha256-uqpCYunRmsGUaIwiCkTYttfetAnx8F4aLhT5HKR2ojs=";
     };
-    date = "2025-08-06";
+    date = "2025-08-08";
+  };
+  cskk = {
+    pname = "cskk";
+    version = "v3.2.0";
+    src = fetchFromGitHub {
+      owner = "naokiri";
+      repo = "cskk";
+      rev = "v3.2.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=";
+    };
   };
   gcal = {
     pname = "gcal";
@@ -32,6 +43,29 @@
       sha256 = "sha256-jU4dwlJaGjufbmOzTe7V/5Av2WuOZGMc49VmeX7yh8Y=";
     };
     date = "2024-06-19";
+  };
+  niri-taskbar = {
+    pname = "niri-taskbar";
+    version = "v0.2.0+niri.25.05";
+    src = fetchFromGitHub {
+      owner = "LawnGnome";
+      repo = "niri-taskbar";
+      rev = "v0.2.0+niri.25.05";
+      fetchSubmodules = false;
+      sha256 = "sha256-2DemaNMzdUjziRvDah4ZvYsyu44+EuSe2w55t21hPws=";
+    };
+  };
+  nx-zotero = {
+    pname = "nx-zotero";
+    version = "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2";
+    src = fetchFromGitHub {
+      owner = "rolling-robot";
+      repo = "nx-zotero";
+      rev = "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2";
+      fetchSubmodules = false;
+      sha256 = "sha256-YvCJcvy7rmXOJ5eLgHE9DtvugwYrYKpjIoXl57TMXk4=";
+    };
+    date = "2024-05-11";
   };
   ol-emacs-slack = {
     pname = "ol-emacs-slack";
