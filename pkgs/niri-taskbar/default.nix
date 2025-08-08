@@ -1,5 +1,6 @@
 {
   lib,
+  stdenv,
   fetchFromGitHub,
   rustPlatform,
   pkg-config,
@@ -39,15 +40,11 @@ rustPlatform.buildRustPackage rec {
     wayland
   ];
 
-  # Waybar CFFI module build
-  installPhase = ''
-    runHook preInstall
-
-    # Install the .so file to $out/lib
-    # This will allow patchelf to be automatically applied in fixupPhase
-    install -Dm644 "target/*/release/libniri_taskbar.so" -t "$out/lib"
-
-    runHook postInstall
+  # Waybar CFFI module build - install shared library
+  postInstall = ''
+    # Install the .so file to $out/lib for Waybar to load
+    # The cdylib creates lib<name>.so in the target directory
+    install -Dm644 "target/${stdenv.hostPlatform.rust.rustcTargetSpec}/release/libniri_taskbar.so" -t "$out/lib"
   '';
 
   meta = with lib; {
