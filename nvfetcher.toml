@@ -40,3 +40,16 @@ fetch.github = "manzaltu/claude-code-ide.el"
 [aquaskk]
 src.github_tag = "codefirst/aquaskk"
 fetch.url ="https://github.com/codefirst/aquaskk/releases/download/$ver/AquaSKK-$ver.pkg"
+
+[cskk]
+src.github_tag = "naokiri/cskk"
+fetch.github = "naokiri/cskk"
+
+[niri-taskbar]
+src.github_tag = "LawnGnome/niri-taskbar"
+fetch.github = "LawnGnome/niri-taskbar"
+
+[nx-zotero]
+src.git = "https://github.com/rolling-robot/nx-zotero"
+src.branch = "master"
+fetch.github = "rolling-robot/nx-zotero"
