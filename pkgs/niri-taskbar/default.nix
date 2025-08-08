@@ -45,7 +45,7 @@ rustPlatform.buildRustPackage rec {
 
     # Install the .so file to $out/lib
     # This will allow patchelf to be automatically applied in fixupPhase
-    install -Dm644 "target/x86_64-unknown-linux-gnu/release/libniri_taskbar.so" -t "$out/lib"
+    install -Dm644 "target/*/release/libniri_taskbar.so" -t "$out/lib"
 
     runHook postInstall
   '';
