@@ -11,15 +11,15 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "430a9eb65c09930f1a6e9c2e687dac13c20fe233";
+    version = "8aa6875af332e1716aa663c330046abbb6b63d4f";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "430a9eb65c09930f1a6e9c2e687dac13c20fe233";
+      rev = "8aa6875af332e1716aa663c330046abbb6b63d4f";
       fetchSubmodules = false;
-      sha256 = "sha256-UjXFPSm0yQY3UIF5xHQZUZFbRBwWRhhoW99HvhBbxd0=";
+      sha256 = "sha256-eQoHmpQXmcBu8CdCy8xGdI3SHxl+Kv7qPrH798lY+kI=";
     };
-    date = "2025-08-11";
+    date = "2025-08-12";
   };
   cskk = {
     pname = "cskk";
@@ -113,15 +113,15 @@
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "259f4e8097bcdde476d18c37de8c25af1776c88c";
+    version = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "259f4e8097bcdde476d18c37de8c25af1776c88c";
+      rev = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
       fetchSubmodules = false;
-      sha256 = "sha256-oKyRAN7FyStFBcscZOvd/8Wcs1lvCevn/EcK8NqOoXw=";
+      sha256 = "sha256-rxXgIoILnxyn543keCkpuv80TLaSATN1T7hCvnM8inU=";
     };
-    date = "2025-07-09";
+    date = "2025-08-12";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
