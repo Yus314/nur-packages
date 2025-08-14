@@ -16,7 +16,7 @@
     },
     "claude-code-ide": {
         "cargoLocks": null,
-        "date": "2025-08-12",
+        "date": "2025-08-14",
         "extract": null,
         "name": "claude-code-ide",
         "passthru": null,
@@ -28,12 +28,12 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "8aa6875af332e1716aa663c330046abbb6b63d4f",
-            "sha256": "sha256-eQoHmpQXmcBu8CdCy8xGdI3SHxl+Kv7qPrH798lY+kI=",
+            "rev": "853440e3d8cebfef49ba9da5e2991422b8c778f4",
+            "sha256": "sha256-GJYhNFMr3l/7+x3vgB3gyEBoY05Qb6KxOvECy67wRvw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "8aa6875af332e1716aa663c330046abbb6b63d4f"
+        "version": "853440e3d8cebfef49ba9da5e2991422b8c778f4"
     },
     "cskk": {
         "cargoLocks": null,
