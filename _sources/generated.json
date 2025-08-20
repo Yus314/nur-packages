@@ -35,6 +35,27 @@
         },
         "version": "907f28ed82b743b0fff945ebe772d10953d78bfe"
     },
+    "cskk": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "cskk",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "naokiri",
+            "repo": "cskk",
+            "rev": "v3.2.0",
+            "sha256": "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v3.2.0"
+    },
     "gcal": {
         "cargoLocks": null,
         "date": "2024-06-19",
@@ -55,6 +76,48 @@
             "type": "github"
         },
         "version": "7b4fc16906850c7be7100d6e239c183ed9a054e4"
+    },
+    "niri-taskbar": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "niri-taskbar",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "LawnGnome",
+            "repo": "niri-taskbar",
+            "rev": "v0.2.0+niri.25.05",
+            "sha256": "sha256-2DemaNMzdUjziRvDah4ZvYsyu44+EuSe2w55t21hPws=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.2.0+niri.25.05"
+    },
+    "nx-zotero": {
+        "cargoLocks": null,
+        "date": "2024-05-11",
+        "extract": null,
+        "name": "nx-zotero",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "rolling-robot",
+            "repo": "nx-zotero",
+            "rev": "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2",
+            "sha256": "sha256-YvCJcvy7rmXOJ5eLgHE9DtvugwYrYKpjIoXl57TMXk4=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2"
     },
     "ol-emacs-slack": {
         "cargoLocks": null,
