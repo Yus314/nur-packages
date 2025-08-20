@@ -48,5 +48,7 @@ stdenv.mkDerivation rec {
     license = licenses.gpl3Plus;
     maintainers = [ ];
     platforms = platforms.linux;
+    # Requires Fcitx5 5.1.13 but nixpkgs only has 5.1.12
+    broken = true;
   };
 }
