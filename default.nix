@@ -29,6 +29,9 @@ rec {
   fcitx5-cskk = pkgs.callPackage ./pkgs/fcitx5-cskk { 
     source = sources.fcitx5-cskk;
     inherit cskk;
+    fcitx5-qt = pkgs.libsForQt5.fcitx5-qt;
+    qtbase = pkgs.libsForQt5.qtbase;
+    wrapQtAppsHook = pkgs.libsForQt5.wrapQtAppsHook;
   };
 
   # Niri packages
