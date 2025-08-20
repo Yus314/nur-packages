@@ -1,7 +1,6 @@
 {
   stdenv,
   lib,
-  fetchFromGitHub,
   cmake,
   extra-cmake-modules,
   pkg-config,
@@ -12,19 +11,13 @@
   wrapQtAppsHook,
   cskk,
   skkDictionaries,
+  source,
   enableQt ? false,
   useQt6 ? false,
 }:
 stdenv.mkDerivation rec {
   pname = "fcitx5-cskk";
-  version = "1.2.0";
-  
-  src = fetchFromGitHub {
-    owner = "fcitx";
-    repo = "fcitx5-cskk";
-    rev = "6d4407c64df46423c378afeefa71bda3282a7cec";
-    hash = "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=";
-  };
+  inherit (source) version src;
 
   nativeBuildInputs = [
     cmake

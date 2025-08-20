@@ -13,26 +13,30 @@ let
   sources = pkgs.callPackage ./_sources/generated.nix { };
 in
 
-{
+rec {
   # The `lib`, `modules`, and `overlays` names are special
   lib = import ./lib { inherit pkgs; }; # functions
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { };
+  bizin-gothic-nf = pkgs.callPackage ./pkgs/bizin { source = sources.bizin-gothic-nf; };
   aquaskk = pkgs.callPackage ./pkgs/AquaSKK { source = sources.aquaskk; };
   qutebrowser = pkgs.qutebrowser;
   vivaldi = pkgs.vivaldi;
 
   # Input method packages
-  cskk = pkgs.callPackage ./pkgs/cskk { source = sources.cskk or null; };
+  cskk = pkgs.callPackage ./pkgs/cskk { source = sources.cskk; };
+  fcitx5-cskk = pkgs.callPackage ./pkgs/fcitx5-cskk { 
+    source = sources.fcitx5-cskk;
+    inherit cskk;
+  };
 
   # Niri packages
-  niri-taskbar = pkgs.callPackage ./pkgs/niri-taskbar { source = sources.niri-taskbar or null; };
+  niri-taskbar = pkgs.callPackage ./pkgs/niri-taskbar { source = sources.niri-taskbar; };
 
   # Nyxt packages
-  nx-rbw = pkgs.callPackage ./pkgs/nx-rbw { };
-  nx-zotero = pkgs.callPackage ./pkgs/nx-zotero { source = sources.nx-zotero or null; };
+  nx-rbw = pkgs.callPackage ./pkgs/nx-rbw { source = sources.nx-rbw; };
+  nx-zotero = pkgs.callPackage ./pkgs/nx-zotero { source = sources.nx-zotero; };
 
   nurEmacsPackages = pkgs.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/emacs-packages {
