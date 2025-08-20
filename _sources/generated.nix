@@ -3,23 +3,23 @@
 {
   aquaskk = {
     pname = "aquaskk";
-    version = "4.7.6";
+    version = "4.7.7";
     src = fetchurl {
-      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.6/AquaSKK-4.7.6.pkg";
-      sha256 = "sha256-8bDzAYOXS6zwG4uC5j+Ne2kW/SEwpEfO0dUSnJQjFmg=";
+      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.7/AquaSKK-4.7.7.pkg";
+      sha256 = "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=";
     };
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "bb36c81457d7ba39c164407310a17d35101a720b";
+    version = "907f28ed82b743b0fff945ebe772d10953d78bfe";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "bb36c81457d7ba39c164407310a17d35101a720b";
+      rev = "907f28ed82b743b0fff945ebe772d10953d78bfe";
       fetchSubmodules = false;
-      sha256 = "sha256-VWEIaxguqFF5GZP29mURJyfh0zLGIoC0ap5t+MMLxjc=";
+      sha256 = "sha256-nRe3cCF3EtK8zyuqwguzUotDH/cqoNedIqEM5HXjC/4=";
     };
-    date = "2025-06-25";
+    date = "2025-08-18";
   };
   gcal = {
     pname = "gcal";
@@ -79,22 +79,22 @@
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "259f4e8097bcdde476d18c37de8c25af1776c88c";
+    version = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "259f4e8097bcdde476d18c37de8c25af1776c88c";
+      rev = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
       fetchSubmodules = false;
-      sha256 = "sha256-oKyRAN7FyStFBcscZOvd/8Wcs1lvCevn/EcK8NqOoXw=";
+      sha256 = "sha256-rxXgIoILnxyn543keCkpuv80TLaSATN1T7hCvnM8inU=";
     };
-    date = "2025-07-09";
+    date = "2025-08-12";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.5.3735.47";
+    version = "7.5.3735.62";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.47.universal.dmg";
-      sha256 = "sha256-fFjgmJY1fC85O0khOWpbSRxIvBHKuDda824TnBd+CrY=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.62.universal.dmg";
+      sha256 = "sha256-U7dSxHGVtKE0lCq0AwPq5KbcFJJkGGvNECeL9iWXu8I=";
     };
   };
 }
