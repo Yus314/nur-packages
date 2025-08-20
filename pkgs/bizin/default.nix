@@ -1,12 +1,15 @@
 {
   lib,
   stdenvNoCC,
+  unzip,
   source,
 }:
 
 stdenvNoCC.mkDerivation rec {
   pname = "bizin-gothic-nf";
   inherit (source) version src;
+
+  nativeBuildInputs = [ unzip ];
 
   installPhase = ''
     runHook preInstall
