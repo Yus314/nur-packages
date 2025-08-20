@@ -1,21 +1,12 @@
 {
   lib,
   stdenvNoCC,
-  fetchFromGitHub,
-  source ? _sources.nx-zotero or null,
-  _sources ? import ../../_sources/generated.nix { inherit fetchFromGitHub; },
+  source,
 }:
 
 stdenvNoCC.mkDerivation rec {
   pname = "nx-zotero";
-  version = if source != null then source.version else "0.1";
-  
-  src = if source != null then source.src else fetchFromGitHub {
-    owner = "rolling-robot";
-    repo = "nx-zotero";
-    rev = "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2";
-    sha256 = "sha256-YvCJcvy7rmXOJ5eLgHE9DtvugwYrYKpjIoXl57TMXk4=";
-  };
+  inherit (source) version src;
 
   dontBuild = true;
 

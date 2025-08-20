@@ -1,17 +1,12 @@
 {
   lib,
   stdenvNoCC,
-  fetchzip,
+  source,
 }:
 
 stdenvNoCC.mkDerivation rec {
   pname = "bizin-gothic-nf";
-  version = "0.0.4";
-
-  src = fetchzip {
-    url = "https://github.com/yuru7/bizin-gothic/releases/download/v${version}/BizinGothicNF_v${version}.zip";
-    hash = "sha256-k0pGSuH6Jq5BX/a4vp7zd9hdDrfJACAa2Jb1OqPXlWs=";
-  };
+  inherit (source) version src;
 
   installPhase = ''
     runHook preInstall

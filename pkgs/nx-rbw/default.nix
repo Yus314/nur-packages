@@ -1,17 +1,12 @@
 {
   lib,
   stdenvNoCC,
-  fetchurl,
+  source,
 }:
 
 stdenvNoCC.mkDerivation rec {
   pname = "nx-rbw";
-  version = "unstable-2023-01-31";
-
-  src = fetchurl {
-    url = "https://codeberg.org/ablatedsprocket/nx-rbw/archive/main.tar.gz";
-    sha256 = "sha256-zkcT9hM2JSHhYfJSLldYKg31BLHto3rbfhHGZZvkfAk=";
-  };
+  inherit (source) version src;
 
   patches = [ ./fix-folder-handling.patch ];
 
