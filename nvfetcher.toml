@@ -53,3 +53,18 @@ fetch.github = "LawnGnome/niri-taskbar"
 src.git = "https://github.com/rolling-robot/nx-zotero"
 src.branch = "master"
 fetch.github = "rolling-robot/nx-zotero"
+
+[bizin-gothic-nf]
+src.github = "yuru7/bizin-gothic"
+src.prefix = "v"
+fetch.url = "https://github.com/yuru7/bizin-gothic/releases/download/v$ver/BizinGothicNF_v$ver.zip"
+
+[nx-rbw]
+src.git = "https://codeberg.org/ablatedsprocket/nx-rbw"
+src.branch = "main"
+fetch.url = "https://codeberg.org/ablatedsprocket/nx-rbw/archive/main.tar.gz"
+
+[fcitx5-cskk]
+src.github = "fcitx/fcitx5-cskk"
+src.prefix = "v"
+fetch.github = "fcitx/fcitx5-cskk"

@@ -9,17 +9,47 @@
       sha256 = "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=";
     };
   };
+  bizin-gothic-nf = {
+    pname = "bizin-gothic-nf";
+    version = "0.0.4";
+    src = fetchurl {
+      url = "https://github.com/yuru7/bizin-gothic/releases/download/v0.0.4/BizinGothicNF_v0.0.4.zip";
+      sha256 = "sha256-k0pGSuH6Jq5BX/a4vp7zd9hdDrfJACAa2Jb1OqPXlWs=";
+    };
+  };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "7e704dc4ce6f91ed5aab200bc0afffa67658993c";
+    version = "8d2603b5a9b078af8b298ae416a574bb36e4b9c8";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "7e704dc4ce6f91ed5aab200bc0afffa67658993c";
+      rev = "8d2603b5a9b078af8b298ae416a574bb36e4b9c8";
       fetchSubmodules = false;
-      sha256 = "sha256-MN09aQAqStR4CCVslviqUgNVZzxllBbWkkmSKWUNJoA=";
+      sha256 = "sha256-YjWRX9Yezqj8N9GUcwke9uL25S5Xnd4h/+Z6ILZWyfs=";
     };
-    date = "2025-08-06";
+    date = "2025-08-09";
+  };
+  cskk = {
+    pname = "cskk";
+    version = "v3.2.0";
+    src = fetchFromGitHub {
+      owner = "naokiri";
+      repo = "cskk";
+      rev = "v3.2.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=";
+    };
+  };
+  fcitx5-cskk = {
+    pname = "fcitx5-cskk";
+    version = "1.2.0";
+    src = fetchFromGitHub {
+      owner = "fcitx";
+      repo = "fcitx5-cskk";
+      rev = "6d4407c64df46423c378afeefa71bda3282a7cec";
+      fetchSubmodules = false;
+      sha256 = "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=";
+    };
   };
   gcal = {
     pname = "gcal";
@@ -32,6 +62,37 @@
       sha256 = "sha256-jU4dwlJaGjufbmOzTe7V/5Av2WuOZGMc49VmeX7yh8Y=";
     };
     date = "2024-06-19";
+  };
+  niri-taskbar = {
+    pname = "niri-taskbar";
+    version = "v0.2.0+niri.25.05";
+    src = fetchFromGitHub {
+      owner = "LawnGnome";
+      repo = "niri-taskbar";
+      rev = "v0.2.0+niri.25.05";
+      fetchSubmodules = false;
+      sha256 = "sha256-2DemaNMzdUjziRvDah4ZvYsyu44+EuSe2w55t21hPws=";
+    };
+  };
+  nx-rbw = {
+    pname = "nx-rbw";
+    version = "unstable-2023-01-31";
+    src = fetchurl {
+      url = "https://codeberg.org/ablatedsprocket/nx-rbw/archive/main.tar.gz";
+      sha256 = "sha256-zkcT9hM2JSHhYfJSLldYKg31BLHto3rbfhHGZZvkfAk=";
+    };
+  };
+  nx-zotero = {
+    pname = "nx-zotero";
+    version = "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2";
+    src = fetchFromGitHub {
+      owner = "rolling-robot";
+      repo = "nx-zotero";
+      rev = "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2";
+      fetchSubmodules = false;
+      sha256 = "sha256-YvCJcvy7rmXOJ5eLgHE9DtvugwYrYKpjIoXl57TMXk4=";
+    };
+    date = "2024-05-11";
   };
   ol-emacs-slack = {
     pname = "ol-emacs-slack";
