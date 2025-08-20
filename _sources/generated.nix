@@ -19,7 +19,7 @@
     version = "0.0.4";
     src = fetchurl {
       url = "https://github.com/yuru7/bizin-gothic/releases/download/v0.0.4/BizinGothicNF_v0.0.4.zip";
-      sha256 = "sha256-k0pGSuH6Jq5BX/a4vp7zd9hdDrfJACAa2Jb1OqPXlWs=";
+      sha256 = "sha256-AnmCv71TXUEfA/e/YDVFSTUW61Gpi0lhYFPpJrkhEhU=";
     };
   };
   claude-code-ide = {
