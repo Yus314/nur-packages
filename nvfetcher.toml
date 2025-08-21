@@ -42,7 +42,7 @@ src.github_tag = "codefirst/aquaskk"
 fetch.url ="https://github.com/codefirst/aquaskk/releases/download/$ver/AquaSKK-$ver.pkg"
 
 [cskk]
-src.github_tag = "naokiri/cskk"
+src.git = "https://github.com/naokiri/cskk"
 fetch.github = "naokiri/cskk"
 
 [niri-taskbar]
@@ -65,6 +65,6 @@ src.branch = "main"
 fetch.url = "https://codeberg.org/ablatedsprocket/nx-rbw/archive/main.tar.gz"
 
 [fcitx5-cskk]
-src.github = "fcitx/fcitx5-cskk"
-src.prefix = "v"
+src.git = "https://github.com/fcitx/fcitx5-cskk"
+src.branch = "master"
 fetch.github = "fcitx/fcitx5-cskk"
