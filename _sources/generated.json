@@ -14,6 +14,21 @@
         },
         "version": "4.7.7"
     },
+    "bizin-gothic-nf": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "bizin-gothic-nf",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-AnmCv71TXUEfA/e/YDVFSTUW61Gpi0lhYFPpJrkhEhU=",
+            "type": "url",
+            "url": "https://github.com/yuru7/bizin-gothic/releases/download/v0.0.4/BizinGothicNF_v0.0.4.zip"
+        },
+        "version": "0.0.4"
+    },
     "claude-code-ide": {
         "cargoLocks": null,
         "date": "2025-08-18",
@@ -37,7 +52,7 @@
     },
     "cskk": {
         "cargoLocks": null,
-        "date": null,
+        "date": "2025-04-26",
         "extract": null,
         "name": "cskk",
         "passthru": null,
@@ -49,12 +64,33 @@
             "name": null,
             "owner": "naokiri",
             "repo": "cskk",
-            "rev": "v3.2.0",
+            "rev": "24803d65761d4ac2f13bf564f2a7c73a343b34e1",
             "sha256": "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v3.2.0"
+        "version": "24803d65761d4ac2f13bf564f2a7c73a343b34e1"
+    },
+    "fcitx5-cskk": {
+        "cargoLocks": null,
+        "date": "2025-04-22",
+        "extract": null,
+        "name": "fcitx5-cskk",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "fcitx",
+            "repo": "fcitx5-cskk",
+            "rev": "6d4407c64df46423c378afeefa71bda3282a7cec",
+            "sha256": "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "6d4407c64df46423c378afeefa71bda3282a7cec"
     },
     "gcal": {
         "cargoLocks": null,
@@ -97,6 +133,21 @@
             "type": "github"
         },
         "version": "v0.2.0+niri.25.05"
+    },
+    "nx-rbw": {
+        "cargoLocks": null,
+        "date": "2024-07-15",
+        "extract": null,
+        "name": "nx-rbw",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-zkcT9hM2JSHhYfJSLldYKg31BLHto3rbfhHGZZvkfAk=",
+            "type": "url",
+            "url": "https://codeberg.org/ablatedsprocket/nx-rbw/archive/main.tar.gz"
+        },
+        "version": "553d0f9d041b93d9600b424ae77cf3e2d6d096ae"
     },
     "nx-zotero": {
         "cargoLocks": null,
