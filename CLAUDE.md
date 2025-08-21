@@ -13,7 +13,7 @@ This is a personal NUR (Nix User Repository) containing custom Nix packages and 
 ## Development Commands
 
 ### Source Management
-- `nvfetcher` - Update package sources and generate `_sources/generated.nix`
+- `nvfetcher -k keyfile.toml` - Update package sources and generate `_sources/generated.nix`
 - `nix develop` - Enter development shell with nvfetcher and update-readme tools
 
 ### Building and Testing
