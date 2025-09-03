@@ -67,13 +67,13 @@
   };
   niri-taskbar = {
     pname = "niri-taskbar";
-    version = "v0.2.0+niri.25.05";
+    version = "v0.3.0+niri.25.08";
     src = fetchFromGitHub {
       owner = "LawnGnome";
       repo = "niri-taskbar";
-      rev = "v0.2.0+niri.25.05";
+      rev = "v0.3.0+niri.25.08";
       fetchSubmodules = false;
-      sha256 = "sha256-2DemaNMzdUjziRvDah4ZvYsyu44+EuSe2w55t21hPws=";
+      sha256 = "sha256-Gbzh4OTkvtP9F/bfDUyA14NH2DMDdr3i6oFoFwinEAg=";
     };
   };
   nx-rbw = {
