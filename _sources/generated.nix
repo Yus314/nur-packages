@@ -3,10 +3,10 @@
 {
   aquaskk = {
     pname = "aquaskk";
-    version = "4.7.7";
+    version = "4.7.8";
     src = fetchurl {
-      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.7/AquaSKK-4.7.7.pkg";
-      sha256 = "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=";
+      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.8/AquaSKK-4.7.8.pkg";
+      sha256 = "sha256-4MKHJP9utaAflVhaJdJaCMQpamV8o1kO4Uz9lzGN+V4=";
     };
   };
   bizin-gothic-nf = {

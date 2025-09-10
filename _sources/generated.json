@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=",
+            "sha256": "sha256-4MKHJP9utaAflVhaJdJaCMQpamV8o1kO4Uz9lzGN+V4=",
             "type": "url",
-            "url": "https://github.com/codefirst/aquaskk/releases/download/4.7.7/AquaSKK-4.7.7.pkg"
+            "url": "https://github.com/codefirst/aquaskk/releases/download/4.7.8/AquaSKK-4.7.8.pkg"
         },
-        "version": "4.7.7"
+        "version": "4.7.8"
     },
     "bizin-gothic-nf": {
         "cargoLocks": null,
