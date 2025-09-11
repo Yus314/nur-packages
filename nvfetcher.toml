@@ -68,3 +68,4 @@ fetch.url = "https://codeberg.org/ablatedsprocket/nx-rbw/archive/main.tar.gz"
 src.git = "https://github.com/fcitx/fcitx5-cskk"
 src.branch = "master"
 fetch.github = "fcitx/fcitx5-cskk"
+
