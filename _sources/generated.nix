@@ -3,10 +3,10 @@
 {
   aquaskk = {
     pname = "aquaskk";
-    version = "4.7.7";
+    version = "4.7.8";
     src = fetchurl {
-      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.7/AquaSKK-4.7.7.pkg";
-      sha256 = "sha256-UwqZR5YG/7Ih0BHpna/YUch+Ovs/rOJoVCmB04UYwBo=";
+      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.8/AquaSKK-4.7.8.pkg";
+      sha256 = "sha256-4MKHJP9utaAflVhaJdJaCMQpamV8o1kO4Uz9lzGN+V4=";
     };
   };
   bizin-gothic-nf = {
@@ -19,15 +19,15 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "907f28ed82b743b0fff945ebe772d10953d78bfe";
+    version = "72f25c4346d904fd743814e5bc6838969b89561e";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "907f28ed82b743b0fff945ebe772d10953d78bfe";
+      rev = "72f25c4346d904fd743814e5bc6838969b89561e";
       fetchSubmodules = false;
-      sha256 = "sha256-nRe3cCF3EtK8zyuqwguzUotDH/cqoNedIqEM5HXjC/4=";
+      sha256 = "sha256-sGW1v5q6KxW1Z3pt+ThgkgOLG4lcmcHnRBsc11kB47U=";
     };
-    date = "2025-08-18";
+    date = "2025-08-31";
   };
   cskk = {
     pname = "cskk";
@@ -67,13 +67,13 @@
   };
   niri-taskbar = {
     pname = "niri-taskbar";
-    version = "v0.2.0+niri.25.05";
+    version = "v0.3.0+niri.25.08";
     src = fetchFromGitHub {
       owner = "LawnGnome";
       repo = "niri-taskbar";
-      rev = "v0.2.0+niri.25.05";
+      rev = "v0.3.0+niri.25.08";
       fetchSubmodules = false;
-      sha256 = "sha256-2DemaNMzdUjziRvDah4ZvYsyu44+EuSe2w55t21hPws=";
+      sha256 = "sha256-Gbzh4OTkvtP9F/bfDUyA14NH2DMDdr3i6oFoFwinEAg=";
     };
   };
   nx-rbw = {
@@ -155,10 +155,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.5.3735.62";
+    version = "7.5.3735.66";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.62.universal.dmg";
-      sha256 = "sha256-U7dSxHGVtKE0lCq0AwPq5KbcFJJkGGvNECeL9iWXu8I=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.66.universal.dmg";
+      sha256 = "sha256-fW0RMc/ZXTphmAOsY8oNBWHoJZL29Y3WXcTFm7iFHJ8=";
     };
   };
 }
