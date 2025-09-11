@@ -1,3 +1,5 @@
 result
 result-*
 
+# nvfetcher key file containing sensitive tokens
+keyfile.toml
