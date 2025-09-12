@@ -43,15 +43,15 @@
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
-    version = "6d4407c64df46423c378afeefa71bda3282a7cec";
+    version = "4a1bafd969d67ae1a217b90b2fdd81787c5a1294";
     src = fetchFromGitHub {
       owner = "fcitx";
       repo = "fcitx5-cskk";
-      rev = "6d4407c64df46423c378afeefa71bda3282a7cec";
+      rev = "4a1bafd969d67ae1a217b90b2fdd81787c5a1294";
       fetchSubmodules = false;
-      sha256 = "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=";
+      sha256 = "sha256-Kn+Lxa18hcyfSBdONLj1eSXN+MxnU6aTz89F/9QeEK8=";
     };
-    date = "2025-04-22";
+    date = "2025-09-11";
   };
   gcal = {
     pname = "gcal";
@@ -155,10 +155,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.5.3735.66";
+    version = "7.5.3735.74";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.66.universal.dmg";
-      sha256 = "sha256-fW0RMc/ZXTphmAOsY8oNBWHoJZL29Y3WXcTFm7iFHJ8=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.74.universal.dmg";
+      sha256 = "sha256-ohJo5EdbqMg1YO+heR6IB/vqT+yAmCDlqYdPxBtT2tE=";
     };
   };
 }
