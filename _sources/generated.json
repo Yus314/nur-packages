@@ -73,7 +73,7 @@
     },
     "fcitx5-cskk": {
         "cargoLocks": null,
-        "date": "2025-04-22",
+        "date": "2025-09-12",
         "extract": null,
         "name": "fcitx5-cskk",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "fcitx",
             "repo": "fcitx5-cskk",
-            "rev": "6d4407c64df46423c378afeefa71bda3282a7cec",
-            "sha256": "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=",
+            "rev": "29423164526845ffea9a00aa107002c408d478aa",
+            "sha256": "sha256-Rvbut3Sd7BygvRL91/o94OfdnZgYMHMg2hoc/uHZ6Qs=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6d4407c64df46423c378afeefa71bda3282a7cec"
+        "version": "29423164526845ffea9a00aa107002c408d478aa"
     },
     "gcal": {
         "cargoLocks": null,
@@ -278,10 +278,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-fW0RMc/ZXTphmAOsY8oNBWHoJZL29Y3WXcTFm7iFHJ8=",
+            "sha256": "sha256-ohJo5EdbqMg1YO+heR6IB/vqT+yAmCDlqYdPxBtT2tE=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.66.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.74.universal.dmg"
         },
-        "version": "7.5.3735.66"
+        "version": "7.5.3735.74"
     }
 }
