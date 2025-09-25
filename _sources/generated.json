@@ -278,10 +278,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-3Es/AMJd954fu0XP8OwHLGaCCCeZevFnbKoB4JnxTjM=",
+            "sha256": "sha256-hl4ctBCHwEkTwLF2RcMMrC9In1+Vh+IPHom8kOuv0mY=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.6.3797.55.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.6.3797.56.universal.dmg"
         },
-        "version": "7.6.3797.55"
+        "version": "7.6.3797.56"
     }
 }
