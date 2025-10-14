@@ -31,15 +31,15 @@
   };
   cskk = {
     pname = "cskk";
-    version = "24803d65761d4ac2f13bf564f2a7c73a343b34e1";
+    version = "d121500a10afb9d1fb703fa8b47c13ab1bb233da";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "24803d65761d4ac2f13bf564f2a7c73a343b34e1";
+      rev = "d121500a10afb9d1fb703fa8b47c13ab1bb233da";
       fetchSubmodules = false;
-      sha256 = "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=";
+      sha256 = "sha256-Iv3DFjYUiGzoYyH/r69LUEgLh7RCQS/oKL0rttvW+fU=";
     };
-    date = "2025-04-26";
+    date = "2025-10-13";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
@@ -143,15 +143,15 @@
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
+    version = "74244aef2545d7bb79b5396dc6503e23e6d239a7";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
+      rev = "74244aef2545d7bb79b5396dc6503e23e6d239a7";
       fetchSubmodules = false;
-      sha256 = "sha256-rxXgIoILnxyn543keCkpuv80TLaSATN1T7hCvnM8inU=";
+      sha256 = "sha256-Bt2YvUpHx5vR+NwUVfk21h0BrLbuW182E0qqx1DNIOo=";
     };
-    date = "2025-08-12";
+    date = "2025-10-12";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";

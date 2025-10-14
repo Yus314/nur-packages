@@ -52,7 +52,7 @@
     },
     "cskk": {
         "cargoLocks": null,
-        "date": "2025-04-26",
+        "date": "2025-10-13",
         "extract": null,
         "name": "cskk",
         "passthru": null,
@@ -64,12 +64,12 @@
             "name": null,
             "owner": "naokiri",
             "repo": "cskk",
-            "rev": "24803d65761d4ac2f13bf564f2a7c73a343b34e1",
-            "sha256": "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=",
+            "rev": "d121500a10afb9d1fb703fa8b47c13ab1bb233da",
+            "sha256": "sha256-Iv3DFjYUiGzoYyH/r69LUEgLh7RCQS/oKL0rttvW+fU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "24803d65761d4ac2f13bf564f2a7c73a343b34e1"
+        "version": "d121500a10afb9d1fb703fa8b47c13ab1bb233da"
     },
     "fcitx5-cskk": {
         "cargoLocks": null,
@@ -250,7 +250,7 @@
     },
     "typst-preview": {
         "cargoLocks": null,
-        "date": "2025-08-12",
+        "date": "2025-10-12",
         "extract": null,
         "name": "typst-preview",
         "passthru": null,
@@ -262,12 +262,12 @@
             "name": null,
             "owner": "havarddj",
             "repo": "typst-preview.el",
-            "rev": "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4",
-            "sha256": "sha256-rxXgIoILnxyn543keCkpuv80TLaSATN1T7hCvnM8inU=",
+            "rev": "74244aef2545d7bb79b5396dc6503e23e6d239a7",
+            "sha256": "sha256-Bt2YvUpHx5vR+NwUVfk21h0BrLbuW182E0qqx1DNIOo=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4"
+        "version": "74244aef2545d7bb79b5396dc6503e23e6d239a7"
     },
     "vivaldi-darwin": {
         "cargoLocks": null,
