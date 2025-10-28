@@ -143,15 +143,15 @@
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "df478514afdabbbc559937e45504018561449ac0";
+    version = "5ae5d6bce6e392cd5361fdde0272af33a746a8de";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "df478514afdabbbc559937e45504018561449ac0";
+      rev = "5ae5d6bce6e392cd5361fdde0272af33a746a8de";
       fetchSubmodules = false;
-      sha256 = "sha256-pU7H5UzRjjX4ql+CCOYIvyJs13YNWVX+j2X8nhfTyTg=";
+      sha256 = "sha256-PQgFwtcfo8+GNd9ctJcCYGDVzSB1w5Dr2jTzU4wksJc=";
     };
-    date = "2025-10-27";
+    date = "2025-10-28";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
