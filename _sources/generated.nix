@@ -135,23 +135,23 @@
   };
   qutebrowser-darwin = {
     pname = "qutebrowser-darwin";
-    version = "3.6.0";
+    version = "3.6.1";
     src = fetchurl {
-      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.0/qutebrowser-3.6.0-arm64.dmg";
-      sha256 = "sha256-n4GpuZwZkW3Uk4ckQ/lFcyOM1WG3zG//7WU3Tl7UlGg=";
+      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.1/qutebrowser-3.6.1-arm64.dmg";
+      sha256 = "sha256-2jk1nSq2O7z6tsVX7/ypvu2ipQh1mb8/Dz/n9KnqvAM=";
     };
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "5ae5d6bce6e392cd5361fdde0272af33a746a8de";
+    version = "a4e9bc649f5a12025f70a371b19442411e941081";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "5ae5d6bce6e392cd5361fdde0272af33a746a8de";
+      rev = "a4e9bc649f5a12025f70a371b19442411e941081";
       fetchSubmodules = false;
-      sha256 = "sha256-PQgFwtcfo8+GNd9ctJcCYGDVzSB1w5Dr2jTzU4wksJc=";
+      sha256 = "sha256-uEqSoSV7kfTFVPicwKbrpEuoN6iH0rYaIlvCFAPiXOE=";
     };
-    date = "2025-10-28";
+    date = "2025-11-03";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
