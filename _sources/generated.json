@@ -242,15 +242,15 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-n4GpuZwZkW3Uk4ckQ/lFcyOM1WG3zG//7WU3Tl7UlGg=",
+            "sha256": "sha256-2jk1nSq2O7z6tsVX7/ypvu2ipQh1mb8/Dz/n9KnqvAM=",
             "type": "url",
-            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.0/qutebrowser-3.6.0-arm64.dmg"
+            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.1/qutebrowser-3.6.1-arm64.dmg"
         },
-        "version": "3.6.0"
+        "version": "3.6.1"
     },
     "typst-preview": {
         "cargoLocks": null,
-        "date": "2025-10-28",
+        "date": "2025-11-03",
         "extract": null,
         "name": "typst-preview",
         "passthru": null,
@@ -262,12 +262,12 @@
             "name": null,
             "owner": "havarddj",
             "repo": "typst-preview.el",
-            "rev": "5ae5d6bce6e392cd5361fdde0272af33a746a8de",
-            "sha256": "sha256-PQgFwtcfo8+GNd9ctJcCYGDVzSB1w5Dr2jTzU4wksJc=",
+            "rev": "a4e9bc649f5a12025f70a371b19442411e941081",
+            "sha256": "sha256-uEqSoSV7kfTFVPicwKbrpEuoN6iH0rYaIlvCFAPiXOE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "5ae5d6bce6e392cd5361fdde0272af33a746a8de"
+        "version": "a4e9bc649f5a12025f70a371b19442411e941081"
     },
     "vivaldi-darwin": {
         "cargoLocks": null,
