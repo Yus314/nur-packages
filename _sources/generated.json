@@ -250,7 +250,7 @@
     },
     "typst-preview": {
         "cargoLocks": null,
-        "date": "2025-11-07",
+        "date": "2025-11-08",
         "extract": null,
         "name": "typst-preview",
         "passthru": null,
@@ -262,12 +262,12 @@
             "name": null,
             "owner": "havarddj",
             "repo": "typst-preview.el",
-            "rev": "1c3811d474abec171008a6907f38ea5b3242c1b5",
-            "sha256": "sha256-NQVenscL8DSWQ+Zdj/H3inNsVEuZak+6srLeeQxxLN8=",
+            "rev": "c855ecd1229225b3bb0b77a10a4136edff7a947d",
+            "sha256": "sha256-taeOtZeI/cumKiWJxdMwoAgZKalj5qnb2FF0xW2j1f8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1c3811d474abec171008a6907f38ea5b3242c1b5"
+        "version": "c855ecd1229225b3bb0b77a10a4136edff7a947d"
     },
     "vivaldi-darwin": {
         "cargoLocks": null,
