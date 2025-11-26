@@ -278,10 +278,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-bbymusDYgiJ8vQPtxBj3SxK+m7X/XoKrRzWvG3MCbcU=",
+            "sha256": "sha256-eHwfO/uDV35LmZAYXMtf7fh7ZxSNBrnqPSFHNWxYMlA=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.52.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.54.universal.dmg"
         },
-        "version": "7.7.3851.52"
+        "version": "7.7.3851.54"
     }
 }
