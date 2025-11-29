@@ -19,39 +19,39 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "72f25c4346d904fd743814e5bc6838969b89561e";
+    version = "32d853e20b9d245a6ee89c4a153a4e568250c62c";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "72f25c4346d904fd743814e5bc6838969b89561e";
+      rev = "32d853e20b9d245a6ee89c4a153a4e568250c62c";
       fetchSubmodules = false;
-      sha256 = "sha256-sGW1v5q6KxW1Z3pt+ThgkgOLG4lcmcHnRBsc11kB47U=";
+      sha256 = "sha256-OrcnUZXqRijJCgf1QE5kkPKKdWSJ4oMYt47Sn/EdQy0=";
     };
-    date = "2025-08-31";
+    date = "2025-09-15";
   };
   cskk = {
     pname = "cskk";
-    version = "24803d65761d4ac2f13bf564f2a7c73a343b34e1";
+    version = "d121500a10afb9d1fb703fa8b47c13ab1bb233da";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "24803d65761d4ac2f13bf564f2a7c73a343b34e1";
+      rev = "d121500a10afb9d1fb703fa8b47c13ab1bb233da";
       fetchSubmodules = false;
-      sha256 = "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=";
+      sha256 = "sha256-Iv3DFjYUiGzoYyH/r69LUEgLh7RCQS/oKL0rttvW+fU=";
     };
-    date = "2025-04-26";
+    date = "2025-10-13";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
-    version = "6d4407c64df46423c378afeefa71bda3282a7cec";
+    version = "0ad9377533e14c2777053588224123fa8a7ebb16";
     src = fetchFromGitHub {
       owner = "fcitx";
       repo = "fcitx5-cskk";
-      rev = "6d4407c64df46423c378afeefa71bda3282a7cec";
+      rev = "0ad9377533e14c2777053588224123fa8a7ebb16";
       fetchSubmodules = false;
-      sha256 = "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=";
+      sha256 = "sha256-fYrJjLe+yh2JJdO9g7NkjcsYuKe+AiKDu4n6UxT1KoU=";
     };
-    date = "2025-04-22";
+    date = "2025-10-30";
   };
   gcal = {
     pname = "gcal";
@@ -64,6 +64,18 @@
       sha256 = "sha256-jU4dwlJaGjufbmOzTe7V/5Av2WuOZGMc49VmeX7yh8Y=";
     };
     date = "2024-06-19";
+  };
+  lean4-mode = {
+    pname = "lean4-mode";
+    version = "1388f9d1429e38a39ab913c6daae55f6ce799479";
+    src = fetchFromGitHub {
+      owner = "leanprover-community";
+      repo = "lean4-mode";
+      rev = "1388f9d1429e38a39ab913c6daae55f6ce799479";
+      fetchSubmodules = false;
+      sha256 = "sha256-6XFcyqSTx1CwNWqQvIc25cuQMwh3YXnbgr5cDiOCxBk=";
+    };
+    date = "2025-05-31";
   };
   niri-taskbar = {
     pname = "niri-taskbar";
@@ -135,30 +147,30 @@
   };
   qutebrowser-darwin = {
     pname = "qutebrowser-darwin";
-    version = "3.5.1";
+    version = "3.6.1";
     src = fetchurl {
-      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.5.1/qutebrowser-3.5.1-arm64.dmg";
-      sha256 = "sha256-sUB4ECoMn6jSFJD4+QLY7khrn7PgOMUrUPQvca88Gxo=";
+      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.1/qutebrowser-3.6.1-arm64.dmg";
+      sha256 = "sha256-2jk1nSq2O7z6tsVX7/ypvu2ipQh1mb8/Dz/n9KnqvAM=";
     };
   };
   typst-preview = {
     pname = "typst-preview";
-    version = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
+    version = "a4e9bc649f5a12025f70a371b19442411e941081";
     src = fetchFromGitHub {
       owner = "havarddj";
       repo = "typst-preview.el";
-      rev = "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4";
+      rev = "a4e9bc649f5a12025f70a371b19442411e941081";
       fetchSubmodules = false;
-      sha256 = "sha256-rxXgIoILnxyn543keCkpuv80TLaSATN1T7hCvnM8inU=";
+      sha256 = "sha256-uEqSoSV7kfTFVPicwKbrpEuoN6iH0rYaIlvCFAPiXOE=";
     };
-    date = "2025-08-12";
+    date = "2025-11-03";
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.5.3735.66";
+    version = "7.6.3797.63";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.66.universal.dmg";
-      sha256 = "sha256-fW0RMc/ZXTphmAOsY8oNBWHoJZL29Y3WXcTFm7iFHJ8=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.6.3797.63.universal.dmg";
+      sha256 = "sha256-MAjuqmVwTPhNHD/iLrrWSOWvYI/txN5Ks3TPyZLA2GM=";
     };
   };
 }

@@ -31,7 +31,7 @@
     },
     "claude-code-ide": {
         "cargoLocks": null,
-        "date": "2025-08-31",
+        "date": "2025-09-15",
         "extract": null,
         "name": "claude-code-ide",
         "passthru": null,
@@ -43,16 +43,16 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "72f25c4346d904fd743814e5bc6838969b89561e",
-            "sha256": "sha256-sGW1v5q6KxW1Z3pt+ThgkgOLG4lcmcHnRBsc11kB47U=",
+            "rev": "32d853e20b9d245a6ee89c4a153a4e568250c62c",
+            "sha256": "sha256-OrcnUZXqRijJCgf1QE5kkPKKdWSJ4oMYt47Sn/EdQy0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "72f25c4346d904fd743814e5bc6838969b89561e"
+        "version": "32d853e20b9d245a6ee89c4a153a4e568250c62c"
     },
     "cskk": {
         "cargoLocks": null,
-        "date": "2025-04-26",
+        "date": "2025-10-13",
         "extract": null,
         "name": "cskk",
         "passthru": null,
@@ -64,16 +64,16 @@
             "name": null,
             "owner": "naokiri",
             "repo": "cskk",
-            "rev": "24803d65761d4ac2f13bf564f2a7c73a343b34e1",
-            "sha256": "sha256-lhLNtSmD5XiG0U6TLWgN+YA/f7UJ/RyHoe5vq5OopuI=",
+            "rev": "d121500a10afb9d1fb703fa8b47c13ab1bb233da",
+            "sha256": "sha256-Iv3DFjYUiGzoYyH/r69LUEgLh7RCQS/oKL0rttvW+fU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "24803d65761d4ac2f13bf564f2a7c73a343b34e1"
+        "version": "d121500a10afb9d1fb703fa8b47c13ab1bb233da"
     },
     "fcitx5-cskk": {
         "cargoLocks": null,
-        "date": "2025-04-22",
+        "date": "2025-10-30",
         "extract": null,
         "name": "fcitx5-cskk",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "fcitx",
             "repo": "fcitx5-cskk",
-            "rev": "6d4407c64df46423c378afeefa71bda3282a7cec",
-            "sha256": "sha256-UfEmRenWiX2xbIirkDRbix1YQrDz1/sVg6yut8ZRJ0k=",
+            "rev": "0ad9377533e14c2777053588224123fa8a7ebb16",
+            "sha256": "sha256-fYrJjLe+yh2JJdO9g7NkjcsYuKe+AiKDu4n6UxT1KoU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6d4407c64df46423c378afeefa71bda3282a7cec"
+        "version": "0ad9377533e14c2777053588224123fa8a7ebb16"
     },
     "gcal": {
         "cargoLocks": null,
@@ -112,6 +112,27 @@
             "type": "github"
         },
         "version": "7b4fc16906850c7be7100d6e239c183ed9a054e4"
+    },
+    "lean4-mode": {
+        "cargoLocks": null,
+        "date": "2025-05-31",
+        "extract": null,
+        "name": "lean4-mode",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "leanprover-community",
+            "repo": "lean4-mode",
+            "rev": "1388f9d1429e38a39ab913c6daae55f6ce799479",
+            "sha256": "sha256-6XFcyqSTx1CwNWqQvIc25cuQMwh3YXnbgr5cDiOCxBk=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "1388f9d1429e38a39ab913c6daae55f6ce799479"
     },
     "niri-taskbar": {
         "cargoLocks": null,
@@ -242,15 +263,15 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-sUB4ECoMn6jSFJD4+QLY7khrn7PgOMUrUPQvca88Gxo=",
+            "sha256": "sha256-2jk1nSq2O7z6tsVX7/ypvu2ipQh1mb8/Dz/n9KnqvAM=",
             "type": "url",
-            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v3.5.1/qutebrowser-3.5.1-arm64.dmg"
+            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.1/qutebrowser-3.6.1-arm64.dmg"
         },
-        "version": "3.5.1"
+        "version": "3.6.1"
     },
     "typst-preview": {
         "cargoLocks": null,
-        "date": "2025-08-12",
+        "date": "2025-11-03",
         "extract": null,
         "name": "typst-preview",
         "passthru": null,
@@ -262,12 +283,12 @@
             "name": null,
             "owner": "havarddj",
             "repo": "typst-preview.el",
-            "rev": "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4",
-            "sha256": "sha256-rxXgIoILnxyn543keCkpuv80TLaSATN1T7hCvnM8inU=",
+            "rev": "a4e9bc649f5a12025f70a371b19442411e941081",
+            "sha256": "sha256-uEqSoSV7kfTFVPicwKbrpEuoN6iH0rYaIlvCFAPiXOE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4f3decb8d9b85b1a06b0dfbd0fccaa0d2d2c24b4"
+        "version": "a4e9bc649f5a12025f70a371b19442411e941081"
     },
     "vivaldi-darwin": {
         "cargoLocks": null,
@@ -278,10 +299,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-fW0RMc/ZXTphmAOsY8oNBWHoJZL29Y3WXcTFm7iFHJ8=",
+            "sha256": "sha256-MAjuqmVwTPhNHD/iLrrWSOWvYI/txN5Ks3TPyZLA2GM=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.5.3735.66.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.6.3797.63.universal.dmg"
         },
-        "version": "7.5.3735.66"
+        "version": "7.6.3797.63"
     }
 }
