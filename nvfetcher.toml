@@ -69,3 +69,7 @@ src.git = "https://github.com/fcitx/fcitx5-cskk"
 src.branch = "master"
 fetch.github = "fcitx/fcitx5-cskk"
 
+[lean4-mode]
+src.git = "https://github.com/leanprover-community/lean4-mode"
+src.branch = "master"
+fetch.github = "leanprover-community/lean4-mode"

@@ -46,4 +46,13 @@
       ;
     source = sources.claude-code-ide;
   };
+  lean4-mode = pkgs.callPackage ./lean4-mode {
+    inherit (epkgs)
+      melpaBuild
+      dash
+      lsp-mode
+      magit
+      ;
+    source = sources.lean4-mode;
+  };
 }
