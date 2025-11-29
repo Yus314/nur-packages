@@ -73,7 +73,7 @@
     },
     "fcitx5-cskk": {
         "cargoLocks": null,
-        "date": "2025-10-30",
+        "date": "2025-11-07",
         "extract": null,
         "name": "fcitx5-cskk",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "fcitx",
             "repo": "fcitx5-cskk",
-            "rev": "0ad9377533e14c2777053588224123fa8a7ebb16",
-            "sha256": "sha256-fYrJjLe+yh2JJdO9g7NkjcsYuKe+AiKDu4n6UxT1KoU=",
+            "rev": "7ea513375d5412b37ab0251476f792d2467547e5",
+            "sha256": "sha256-ooAfyoHpFoMiF0ZpvasW72Xk5BZ/t3qEGxRX8keWFuA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0ad9377533e14c2777053588224123fa8a7ebb16"
+        "version": "7ea513375d5412b37ab0251476f792d2467547e5"
     },
     "gcal": {
         "cargoLocks": null,
@@ -271,7 +271,7 @@
     },
     "typst-preview": {
         "cargoLocks": null,
-        "date": "2025-11-03",
+        "date": "2025-11-10",
         "extract": null,
         "name": "typst-preview",
         "passthru": null,
@@ -283,12 +283,12 @@
             "name": null,
             "owner": "havarddj",
             "repo": "typst-preview.el",
-            "rev": "a4e9bc649f5a12025f70a371b19442411e941081",
-            "sha256": "sha256-uEqSoSV7kfTFVPicwKbrpEuoN6iH0rYaIlvCFAPiXOE=",
+            "rev": "c685857f2d61133fc268509b39796b2718728f29",
+            "sha256": "sha256-+426otCa0TASEo9Z+2yH8SUJIGtGEdl35/BdmfBBDbA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "a4e9bc649f5a12025f70a371b19442411e941081"
+        "version": "c685857f2d61133fc268509b39796b2718728f29"
     },
     "vivaldi-darwin": {
         "cargoLocks": null,
@@ -299,10 +299,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-MAjuqmVwTPhNHD/iLrrWSOWvYI/txN5Ks3TPyZLA2GM=",
+            "sha256": "sha256-eHwfO/uDV35LmZAYXMtf7fh7ZxSNBrnqPSFHNWxYMlA=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.6.3797.63.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.54.universal.dmg"
         },
-        "version": "7.6.3797.63"
+        "version": "7.7.3851.54"
     }
 }
