@@ -2,9 +2,14 @@
   lib,
   stdenv,
   fetchFromGitHub,
+  source,
+  melpaBuild,
+  dash,
+  lsp-mode,
+  magit,
 }:
 
-stdenv.mkDerivation rec {
+melpaBuild rec {
   pname = "lean4-mode";
   version = "1.1.2";
 
@@ -24,4 +29,10 @@ stdenv.mkDerivation rec {
     mainProgram = "lean4-mode";
     platforms = lib.platforms.all;
   };
+  packageRequires = [
+    dash
+    lsp-mode
+    magit
+  ];
+
 }
