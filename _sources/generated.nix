@@ -31,15 +31,15 @@
   };
   cskk = {
     pname = "cskk";
-    version = "d121500a10afb9d1fb703fa8b47c13ab1bb233da";
+    version = "f64da6be433fdcd017189397b5977de7fcfbb7cf";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "d121500a10afb9d1fb703fa8b47c13ab1bb233da";
+      rev = "f64da6be433fdcd017189397b5977de7fcfbb7cf";
       fetchSubmodules = false;
-      sha256 = "sha256-Iv3DFjYUiGzoYyH/r69LUEgLh7RCQS/oKL0rttvW+fU=";
+      sha256 = "sha256-dD35RwIrj9n+GE00+Em0PfpdBMtLj9d0SufHt5DWzlU=";
     };
-    date = "2025-10-13";
+    date = "2025-11-30";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
@@ -147,10 +147,10 @@
   };
   qutebrowser-darwin = {
     pname = "qutebrowser-darwin";
-    version = "3.6.2";
+    version = "3.6.3";
     src = fetchurl {
-      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.2/qutebrowser-3.6.2-arm64.dmg";
-      sha256 = "sha256-tnMn1TvnlTT1jSD8wiO5Cq6F9UCAJeMUj4BgpwJMoOM=";
+      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.3/qutebrowser-3.6.3-arm64.dmg";
+      sha256 = "sha256-Kk+uWs2QJouaD9U5ma3AJsR4HtqW/Blh8zM9Faj1u00=";
     };
   };
   typst-preview = {
