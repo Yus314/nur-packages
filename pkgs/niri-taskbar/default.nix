@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage rec {
   pname = "niri-taskbar";
   inherit (source) version src;
 
-  cargoLock.lockFile = "${src}/Cargo.lock";
+  cargoLock.lockFile = ./Cargo.lock;
 
   nativeBuildInputs = [
     pkg-config
