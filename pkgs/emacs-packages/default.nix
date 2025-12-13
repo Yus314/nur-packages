@@ -55,4 +55,10 @@
       ;
     source = sources.lean4-mode;
   };
+  chrome-emacs = pkgs.callPackage ./chrome-emacs {
+    inherit (epkgs)
+      melpaBuild
+      websocket
+      ;
+  };
 }

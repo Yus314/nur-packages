@@ -79,13 +79,13 @@
   };
   niri-taskbar = {
     pname = "niri-taskbar";
-    version = "v0.3.0+niri.25.08";
+    version = "v0.4.0+niri.25.11";
     src = fetchFromGitHub {
       owner = "LawnGnome";
       repo = "niri-taskbar";
-      rev = "v0.3.0+niri.25.08";
+      rev = "v0.4.0+niri.25.11";
       fetchSubmodules = false;
-      sha256 = "sha256-Gbzh4OTkvtP9F/bfDUyA14NH2DMDdr3i6oFoFwinEAg=";
+      sha256 = "sha256-aE5v94AA6bC0CP8pv/SPBxGKpkH+GxR/p7hTKXlvk3E=";
     };
   };
   nx-rbw = {
@@ -167,10 +167,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.7.3851.56";
+    version = "7.7.3851.61";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.56.universal.dmg";
-      sha256 = "sha256-TnpoXJ+5COHcTCluvL+yRIGctfuHUmM8zh5xqvYQ53E=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.61.universal.dmg";
+      sha256 = "sha256-SlOy1i3h4fLeeoi/ZfysYEr9nCUmi1s7PtdUwtOZ4x0=";
     };
   };
 }
