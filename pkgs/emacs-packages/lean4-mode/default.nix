@@ -20,10 +20,8 @@ melpaBuild rec {
     hash = "sha256-DLgdxd0m3SmJ9heJ/pe5k8bZCfvWdaKAF0BDYEkwlMQ=";
   };
 
-  files = [
-    "*.el"
-    "data"
-  ];
+  files = ''("*.el" "data")'';
+
   meta = {
     description = "Emacs major mode for Lean 4";
     homepage = "https://github.com/leanprover-community/lean4-mode";
