@@ -7,6 +7,7 @@
   dash,
   lsp-mode,
   magit,
+  compat,
 }:
 
 melpaBuild rec {
@@ -35,6 +36,7 @@ melpaBuild rec {
     dash
     lsp-mode
     magit
+    compat
   ];
 
 }

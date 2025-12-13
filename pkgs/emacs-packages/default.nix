@@ -52,6 +52,7 @@
       dash
       lsp-mode
       magit
+      compat
       ;
     source = sources.lean4-mode;
   };
