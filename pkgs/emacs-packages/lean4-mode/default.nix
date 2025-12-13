@@ -8,6 +8,7 @@
   lsp-mode,
   magit,
   compat,
+  magit-section,
 }:
 
 melpaBuild rec {
@@ -37,6 +38,7 @@ melpaBuild rec {
     lsp-mode
     magit
     compat
+    magit-section
   ];
 
 }

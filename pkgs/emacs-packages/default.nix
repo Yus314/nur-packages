@@ -53,6 +53,7 @@
       lsp-mode
       magit
       compat
+      magit-section
       ;
     source = sources.lean4-mode;
   };
