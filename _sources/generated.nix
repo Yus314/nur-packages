@@ -19,15 +19,15 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "32d853e20b9d245a6ee89c4a153a4e568250c62c";
+    version = "3ad91302e16615bc42d4d69de8ff1387dedac57f";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "32d853e20b9d245a6ee89c4a153a4e568250c62c";
+      rev = "3ad91302e16615bc42d4d69de8ff1387dedac57f";
       fetchSubmodules = false;
-      sha256 = "sha256-OrcnUZXqRijJCgf1QE5kkPKKdWSJ4oMYt47Sn/EdQy0=";
+      sha256 = "sha256-2oF7RNBZKfUwU4dYAWJ78DJiNrEj2+c3ugRWMh3QbjY=";
     };
-    date = "2025-09-15";
+    date = "2025-12-14";
   };
   cskk = {
     pname = "cskk";
