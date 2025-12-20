@@ -41,7 +41,7 @@ rec {
   nx-rbw = pkgs.callPackage ./pkgs/nx-rbw { source = sources.nx-rbw; };
   nx-zotero = pkgs.callPackage ./pkgs/nx-zotero { source = sources.nx-zotero; };
 
-  nurEmacsPackages = pkgs.recurseIntoAttrs (
+  nurEmacsPackages = pkgs.lib.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/emacs-packages {
       inherit sources;
       epkgs = pkgs.emacs.pkgs;
