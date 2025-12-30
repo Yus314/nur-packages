@@ -31,27 +31,27 @@
   };
   cskk = {
     pname = "cskk";
-    version = "1c010fd96afca2fbb7c9b584bd73eccfaf42c1b6";
+    version = "32cd63e59379a1b0f3a287ff2d0bb6bae0a458ad";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "1c010fd96afca2fbb7c9b584bd73eccfaf42c1b6";
+      rev = "32cd63e59379a1b0f3a287ff2d0bb6bae0a458ad";
       fetchSubmodules = false;
-      sha256 = "sha256-zhK/wUpqfqxvaUEgKd2zlpE2u4agj7FUiAbBOBY/8aw=";
+      sha256 = "sha256-NartQ1JatgIideY+zXrsx8vJF6DuEZclqmpt2dXtyEg=";
     };
-    date = "2025-12-20";
+    date = "2025-12-31";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
-    version = "ee9ce55d826daef2ae2e2721c18db28815724ae6";
+    version = "7c0a80e350150b370d2dd2606528dc3f5590668f";
     src = fetchFromGitHub {
       owner = "fcitx";
       repo = "fcitx5-cskk";
-      rev = "ee9ce55d826daef2ae2e2721c18db28815724ae6";
+      rev = "7c0a80e350150b370d2dd2606528dc3f5590668f";
       fetchSubmodules = false;
-      sha256 = "sha256-ChOXbSWqIljdFoWsJdW1rXPVfUIq2y8KdQiIZ4h/qUw=";
+      sha256 = "sha256-dqhJlK8yZCdw1QmP3c2yohN2FD61EE4cPNMlRVlyaLg=";
     };
-    date = "2025-12-18";
+    date = "2025-12-31";
   };
   gcal = {
     pname = "gcal";
