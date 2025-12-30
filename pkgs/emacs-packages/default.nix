@@ -63,4 +63,9 @@
       websocket
       ;
   };
+  quick-sdcv = pkgs.callPackage ./quick-sdcv {
+    inherit (epkgs)
+      melpaBuild
+      ;
+  };
 }
