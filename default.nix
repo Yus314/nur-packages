@@ -26,7 +26,7 @@ rec {
 
   # Input method packages
   cskk = pkgs.callPackage ./pkgs/cskk { source = sources.cskk; };
-  fcitx5-cskk = pkgs.callPackage ./pkgs/fcitx5-cskk { 
+  fcitx5-cskk = pkgs.callPackage ./pkgs/fcitx5-cskk {
     source = sources.fcitx5-cskk;
     inherit cskk;
     fcitx5-qt = pkgs.libsForQt5.fcitx5-qt;
@@ -45,6 +45,12 @@ rec {
     pkgs.callPackage ./pkgs/emacs-packages {
       inherit sources;
       epkgs = pkgs.emacs.pkgs;
+    }
+  );
+  kakounePlugins = pkgs.recurseIntoAttrs (
+    pkgs.callPackage ./pkgs/kakoune-plugins {
+      inherit (pkgs.kakouneUtils) buildKakounePluginFrom2Nix;
+      inherit sources;
     }
   );
 }
