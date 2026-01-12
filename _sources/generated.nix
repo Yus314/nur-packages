@@ -43,15 +43,15 @@
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
-    version = "7c0a80e350150b370d2dd2606528dc3f5590668f";
+    version = "da7e2ce7d8f1319368adae3d9e96513058c40018";
     src = fetchFromGitHub {
       owner = "fcitx";
       repo = "fcitx5-cskk";
-      rev = "7c0a80e350150b370d2dd2606528dc3f5590668f";
+      rev = "da7e2ce7d8f1319368adae3d9e96513058c40018";
       fetchSubmodules = false;
-      sha256 = "sha256-dqhJlK8yZCdw1QmP3c2yohN2FD61EE4cPNMlRVlyaLg=";
+      sha256 = "sha256-qJ3UQphoHOSa4wYowR6wQp+RakovoQVzuii4DAWUWuY=";
     };
-    date = "2025-12-31";
+    date = "2026-01-12";
   };
   gcal = {
     pname = "gcal";

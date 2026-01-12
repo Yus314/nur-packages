@@ -73,7 +73,7 @@
     },
     "fcitx5-cskk": {
         "cargoLocks": null,
-        "date": "2025-12-31",
+        "date": "2026-01-12",
         "extract": null,
         "name": "fcitx5-cskk",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "fcitx",
             "repo": "fcitx5-cskk",
-            "rev": "7c0a80e350150b370d2dd2606528dc3f5590668f",
-            "sha256": "sha256-dqhJlK8yZCdw1QmP3c2yohN2FD61EE4cPNMlRVlyaLg=",
+            "rev": "da7e2ce7d8f1319368adae3d9e96513058c40018",
+            "sha256": "sha256-qJ3UQphoHOSa4wYowR6wQp+RakovoQVzuii4DAWUWuY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "7c0a80e350150b370d2dd2606528dc3f5590668f"
+        "version": "da7e2ce7d8f1319368adae3d9e96513058c40018"
     },
     "gcal": {
         "cargoLocks": null,
