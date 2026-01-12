@@ -31,7 +31,7 @@
     },
     "claude-code-ide": {
         "cargoLocks": null,
-        "date": "2025-12-14",
+        "date": "2026-01-02",
         "extract": null,
         "name": "claude-code-ide",
         "passthru": null,
@@ -43,16 +43,16 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "3ad91302e16615bc42d4d69de8ff1387dedac57f",
-            "sha256": "sha256-2oF7RNBZKfUwU4dYAWJ78DJiNrEj2+c3ugRWMh3QbjY=",
+            "rev": "760240d7f03ff16f90ede9d4f4243cd94f3fed73",
+            "sha256": "sha256-Abs8+r5bQSkRJC74TEq1RRZtvj4TYmL1Vijq6KO9GG4=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "3ad91302e16615bc42d4d69de8ff1387dedac57f"
+        "version": "760240d7f03ff16f90ede9d4f4243cd94f3fed73"
     },
     "cskk": {
         "cargoLocks": null,
-        "date": "2025-12-20",
+        "date": "2026-01-04",
         "extract": null,
         "name": "cskk",
         "passthru": null,
@@ -64,16 +64,16 @@
             "name": null,
             "owner": "naokiri",
             "repo": "cskk",
-            "rev": "1c010fd96afca2fbb7c9b584bd73eccfaf42c1b6",
-            "sha256": "sha256-zhK/wUpqfqxvaUEgKd2zlpE2u4agj7FUiAbBOBY/8aw=",
+            "rev": "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d",
+            "sha256": "sha256-olQ0ru5JPx3F0nL+EVR5rmR7nAfceUPSzaATRACJUJU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1c010fd96afca2fbb7c9b584bd73eccfaf42c1b6"
+        "version": "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d"
     },
     "fcitx5-cskk": {
         "cargoLocks": null,
-        "date": "2025-12-18",
+        "date": "2025-12-31",
         "extract": null,
         "name": "fcitx5-cskk",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "fcitx",
             "repo": "fcitx5-cskk",
-            "rev": "ee9ce55d826daef2ae2e2721c18db28815724ae6",
-            "sha256": "sha256-ChOXbSWqIljdFoWsJdW1rXPVfUIq2y8KdQiIZ4h/qUw=",
+            "rev": "7c0a80e350150b370d2dd2606528dc3f5590668f",
+            "sha256": "sha256-dqhJlK8yZCdw1QmP3c2yohN2FD61EE4cPNMlRVlyaLg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ee9ce55d826daef2ae2e2721c18db28815724ae6"
+        "version": "7c0a80e350150b370d2dd2606528dc3f5590668f"
     },
     "gcal": {
         "cargoLocks": null,
@@ -214,7 +214,7 @@
     },
     "org-modern-indent": {
         "cargoLocks": null,
-        "date": "2025-04-12",
+        "date": "2026-01-02",
         "extract": null,
         "name": "org-modern-indent",
         "passthru": null,
@@ -226,12 +226,12 @@
             "name": null,
             "owner": "jdtsmith",
             "repo": "org-modern-indent",
-            "rev": "9973bd3b91e4733a3edd1fca232208c837c05473",
-            "sha256": "sha256-st3338Jk9kZ5BLEPRJZhjqdncMpLoWNwp60ZwKEObyU=",
+            "rev": "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4",
+            "sha256": "sha256-+q7KmbU8A+uR61BSa528vYbdFSj2WGsFWYW/5q7J9Kw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "9973bd3b91e4733a3edd1fca232208c837c05473"
+        "version": "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4"
     },
     "org-roam-review": {
         "cargoLocks": null,
@@ -299,10 +299,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Zvgl8LkWAQlmPe2f5bJFfePsD79NOCibqhuCWpfwzw8=",
+            "sha256": "sha256-4c1DFIS2NgtX1jOx5dxkLXVgZMxuSrwAzLDhoIDdEj0=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.66.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.67.universal.dmg"
         },
-        "version": "7.7.3851.66"
+        "version": "7.7.3851.67"
     }
 }

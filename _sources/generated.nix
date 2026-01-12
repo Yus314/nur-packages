@@ -19,39 +19,39 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "3ad91302e16615bc42d4d69de8ff1387dedac57f";
+    version = "760240d7f03ff16f90ede9d4f4243cd94f3fed73";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "3ad91302e16615bc42d4d69de8ff1387dedac57f";
+      rev = "760240d7f03ff16f90ede9d4f4243cd94f3fed73";
       fetchSubmodules = false;
-      sha256 = "sha256-2oF7RNBZKfUwU4dYAWJ78DJiNrEj2+c3ugRWMh3QbjY=";
+      sha256 = "sha256-Abs8+r5bQSkRJC74TEq1RRZtvj4TYmL1Vijq6KO9GG4=";
     };
-    date = "2025-12-14";
+    date = "2026-01-02";
   };
   cskk = {
     pname = "cskk";
-    version = "1c010fd96afca2fbb7c9b584bd73eccfaf42c1b6";
+    version = "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "1c010fd96afca2fbb7c9b584bd73eccfaf42c1b6";
+      rev = "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d";
       fetchSubmodules = false;
-      sha256 = "sha256-zhK/wUpqfqxvaUEgKd2zlpE2u4agj7FUiAbBOBY/8aw=";
+      sha256 = "sha256-olQ0ru5JPx3F0nL+EVR5rmR7nAfceUPSzaATRACJUJU=";
     };
-    date = "2025-12-20";
+    date = "2026-01-04";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
-    version = "ee9ce55d826daef2ae2e2721c18db28815724ae6";
+    version = "7c0a80e350150b370d2dd2606528dc3f5590668f";
     src = fetchFromGitHub {
       owner = "fcitx";
       repo = "fcitx5-cskk";
-      rev = "ee9ce55d826daef2ae2e2721c18db28815724ae6";
+      rev = "7c0a80e350150b370d2dd2606528dc3f5590668f";
       fetchSubmodules = false;
-      sha256 = "sha256-ChOXbSWqIljdFoWsJdW1rXPVfUIq2y8KdQiIZ4h/qUw=";
+      sha256 = "sha256-dqhJlK8yZCdw1QmP3c2yohN2FD61EE4cPNMlRVlyaLg=";
     };
-    date = "2025-12-18";
+    date = "2025-12-31";
   };
   gcal = {
     pname = "gcal";
@@ -123,15 +123,15 @@
   };
   org-modern-indent = {
     pname = "org-modern-indent";
-    version = "9973bd3b91e4733a3edd1fca232208c837c05473";
+    version = "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4";
     src = fetchFromGitHub {
       owner = "jdtsmith";
       repo = "org-modern-indent";
-      rev = "9973bd3b91e4733a3edd1fca232208c837c05473";
+      rev = "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4";
       fetchSubmodules = false;
-      sha256 = "sha256-st3338Jk9kZ5BLEPRJZhjqdncMpLoWNwp60ZwKEObyU=";
+      sha256 = "sha256-+q7KmbU8A+uR61BSa528vYbdFSj2WGsFWYW/5q7J9Kw=";
     };
-    date = "2025-04-12";
+    date = "2026-01-02";
   };
   org-roam-review = {
     pname = "org-roam-review";
@@ -167,10 +167,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "7.7.3851.66";
+    version = "7.7.3851.67";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.66.universal.dmg";
-      sha256 = "sha256-Zvgl8LkWAQlmPe2f5bJFfePsD79NOCibqhuCWpfwzw8=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.67.universal.dmg";
+      sha256 = "sha256-4c1DFIS2NgtX1jOx5dxkLXVgZMxuSrwAzLDhoIDdEj0=";
     };
   };
 }
