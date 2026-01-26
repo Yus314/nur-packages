@@ -68,4 +68,9 @@
       melpaBuild
       ;
   };
+  darkman = pkgs.callPackage ./darkman {
+    inherit (epkgs)
+      melpaBuild
+      ;
+  };
 }
