@@ -73,3 +73,15 @@ fetch.github = "fcitx/fcitx5-cskk"
 src.git = "https://github.com/leanprover-community/lean4-mode"
 src.branch = "master"
 fetch.github = "leanprover-community/lean4-mode"
+
+[hledger-lots]
+src.pypi = "hledger_lots"
+fetch.pypi = "hledger_lots"
+
+[pyxirr]
+src.pypi = "pyxirr"
+fetch.pypi = "pyxirr"
+
+[rich-click]
+src.pypi = "rich_click"
+fetch.pypi = "rich_click"

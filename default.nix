@@ -41,6 +41,14 @@ rec {
   nx-rbw = pkgs.callPackage ./pkgs/nx-rbw { source = sources.nx-rbw; };
   nx-zotero = pkgs.callPackage ./pkgs/nx-zotero { source = sources.nx-zotero; };
 
+  # Python packages
+  pyxirr = pkgs.callPackage ./pkgs/pyxirr { source = sources.pyxirr; };
+  rich-click = pkgs.callPackage ./pkgs/rich-click { source = sources.rich-click; };
+  hledger-lots = pkgs.callPackage ./pkgs/hledger-lots {
+    source = sources.hledger-lots;
+    inherit pyxirr rich-click;
+  };
+
   nurEmacsPackages = pkgs.lib.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/emacs-packages {
       inherit sources;

@@ -1,6 +1,6 @@
 {
     "aquaskk": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "aquaskk",
@@ -15,7 +15,7 @@
         "version": "4.7.8"
     },
     "bizin-gothic-nf": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "bizin-gothic-nf",
@@ -30,8 +30,8 @@
         "version": "0.0.4"
     },
     "claude-code-ide": {
-        "cargoLocks": null,
-        "date": "2026-01-02",
+        "cargoLock": null,
+        "date": "2026-02-02",
         "extract": null,
         "name": "claude-code-ide",
         "passthru": null,
@@ -43,15 +43,15 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "760240d7f03ff16f90ede9d4f4243cd94f3fed73",
-            "sha256": "sha256-Abs8+r5bQSkRJC74TEq1RRZtvj4TYmL1Vijq6KO9GG4=",
+            "rev": "5f12e60c6d2d1802c8c1b7944bbdf935d5db1364",
+            "sha256": "sha256-tivRvgfI/8XBRImE3wuZ1UD0t2dNWYscv3Aa53BmHZE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "760240d7f03ff16f90ede9d4f4243cd94f3fed73"
+        "version": "5f12e60c6d2d1802c8c1b7944bbdf935d5db1364"
     },
     "cskk": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-04",
         "extract": null,
         "name": "cskk",
@@ -72,7 +72,7 @@
         "version": "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d"
     },
     "fcitx5-cskk": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-12",
         "extract": null,
         "name": "fcitx5-cskk",
@@ -93,7 +93,7 @@
         "version": "da7e2ce7d8f1319368adae3d9e96513058c40018"
     },
     "gcal": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2024-06-19",
         "extract": null,
         "name": "gcal",
@@ -113,8 +113,23 @@
         },
         "version": "7b4fc16906850c7be7100d6e239c183ed9a054e4"
     },
+    "hledger-lots": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "hledger-lots",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-gdvnDgB1cy0RKjNpFygFUCa8wugH020T35ALtLXj3QI=",
+            "type": "url",
+            "url": "https://pypi.org/packages/source/h/hledger_lots/hledger_lots-0.4.2.tar.gz"
+        },
+        "version": "0.4.2"
+    },
     "lean4-mode": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-05-31",
         "extract": null,
         "name": "lean4-mode",
@@ -135,7 +150,7 @@
         "version": "1388f9d1429e38a39ab913c6daae55f6ce799479"
     },
     "niri-taskbar": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "niri-taskbar",
@@ -156,7 +171,7 @@
         "version": "v0.4.0+niri.25.11"
     },
     "nx-rbw": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2024-07-15",
         "extract": null,
         "name": "nx-rbw",
@@ -171,7 +186,7 @@
         "version": "553d0f9d041b93d9600b424ae77cf3e2d6d096ae"
     },
     "nx-zotero": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2024-05-11",
         "extract": null,
         "name": "nx-zotero",
@@ -192,7 +207,7 @@
         "version": "4a6b0ff72ae829b1789c1e21ce6c072b8af22da2"
     },
     "ol-emacs-slack": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-22",
         "extract": null,
         "name": "ol-emacs-slack",
@@ -213,7 +228,7 @@
         "version": "93ecc9d5fbe94f1693a4aa0226a09f35b55d9acd"
     },
     "org-modern-indent": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-02",
         "extract": null,
         "name": "org-modern-indent",
@@ -234,7 +249,7 @@
         "version": "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4"
     },
     "org-roam-review": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-02-15",
         "extract": null,
         "name": "org-roam-review",
@@ -254,8 +269,23 @@
         },
         "version": "d142559096b3e3ee288d439c59fa6a30abe1b11f"
     },
+    "pyxirr": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "pyxirr",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-pWIN12AVRE8m+AXEmDpBZkiY+/KnSVaihYmxce2W0vU=",
+            "type": "url",
+            "url": "https://pypi.org/packages/source/p/pyxirr/pyxirr-0.10.8.tar.gz"
+        },
+        "version": "0.10.8"
+    },
     "qutebrowser-darwin": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "qutebrowser-darwin",
@@ -269,8 +299,23 @@
         },
         "version": "3.6.3"
     },
+    "rich-click": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "rich-click",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-AimXweMHMZlb28jsL4KBk0DUJUMjfwM6ADx7H4Q/xdw=",
+            "type": "url",
+            "url": "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.7.tar.gz"
+        },
+        "version": "1.9.7"
+    },
     "typst-preview": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-11-10",
         "extract": null,
         "name": "typst-preview",
@@ -291,7 +336,7 @@
         "version": "c685857f2d61133fc268509b39796b2718728f29"
     },
     "vivaldi-darwin": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "vivaldi-darwin",
@@ -299,10 +344,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-4c1DFIS2NgtX1jOx5dxkLXVgZMxuSrwAzLDhoIDdEj0=",
+            "sha256": "sha256-c7GLpWQ+ZueO9WOdgt8QPPYshjLOBWlTo4SoD1PdAjg=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.7.3851.67.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.8.3925.66.universal.dmg"
         },
-        "version": "7.7.3851.67"
+        "version": "7.8.3925.66"
     }
 }
