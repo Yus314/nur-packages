@@ -72,11 +72,15 @@
   };
   hledger-lots = {
     pname = "hledger-lots";
-    version = "0.4.2";
-    src = fetchurl {
-      url = "https://pypi.org/packages/source/h/hledger_lots/hledger_lots-0.4.2.tar.gz";
-      sha256 = "sha256-gdvnDgB1cy0RKjNpFygFUCa8wugH020T35ALtLXj3QI=";
+    version = "a48b8aeacbbcc28dd3372892308e182992c3c624";
+    src = fetchFromGitHub {
+      owner = "brianjp93";
+      repo = "hledger-lots";
+      rev = "a48b8aeacbbcc28dd3372892308e182992c3c624";
+      fetchSubmodules = false;
+      sha256 = "sha256-vrTpqZWCTQPsPyFAa1XC93REv2pFcoCe+4mSC2NeEN0=";
     };
+    date = "2024-11-14";
   };
   lean4-mode = {
     pname = "lean4-mode";

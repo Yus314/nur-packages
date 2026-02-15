@@ -74,9 +74,12 @@ src.git = "https://github.com/leanprover-community/lean4-mode"
 src.branch = "master"
 fetch.github = "leanprover-community/lean4-mode"
 
+# hledger 1.33以降対応のフォーク版 (aprice -> acost 修正済み)
+# https://github.com/edkedk99/hledger-lots/pull/5
 [hledger-lots]
-src.pypi = "hledger_lots"
-fetch.pypi = "hledger_lots"
+src.git = "https://github.com/brianjp93/hledger-lots"
+src.branch = "master"
+fetch.github = "brianjp93/hledger-lots"
 
 [pyxirr]
 src.pypi = "pyxirr"
