@@ -88,3 +88,8 @@ fetch.pypi = "pyxirr"
 [rich-click]
 src.pypi = "rich_click"
 fetch.pypi = "rich_click"
+
+[kakoune-scrollback]
+src.git = "https://github.com/Yus314/kakoune-scrollback"
+src.branch = "master"
+fetch.github = "Yus314/kakoune-scrollback"
