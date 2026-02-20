@@ -148,12 +148,12 @@
             "name": null,
             "owner": "Yus314",
             "repo": "kakoune-scrollback",
-            "rev": "ee1497f543b3148988ea2dc4918a11c2172e79c0",
-            "sha256": "sha256-v2psoSDRNsC6meD5VVhTtEZYNu5UtoNJBYPbas7KSUE=",
+            "rev": "c5a3451f71572bfbb701b459f00d1ebf0e723eac",
+            "sha256": "sha256-khy+9nYyp8Gwt33aIwoQ10/nZf+SM72KFDjrwkzZvWY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ee1497f543b3148988ea2dc4918a11c2172e79c0"
+        "version": "c5a3451f71572bfbb701b459f00d1ebf0e723eac"
     },
     "lean4-mode": {
         "cargoLocks": null,
