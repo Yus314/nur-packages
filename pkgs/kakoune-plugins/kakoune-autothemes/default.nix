@@ -2,20 +2,18 @@
   lib,
   stdenv,
   source,
-  swift,
-  darwin,
+  swiftPackages,
 }:
 
-stdenv.mkDerivation {
+let
+  effectiveStdenv = if stdenv.isDarwin then swiftPackages.stdenv else stdenv;
+in
+effectiveStdenv.mkDerivation {
   pname = "kakoune-autothemes";
   inherit (source) version src;
 
-  nativeBuildInputs = lib.optionals stdenv.isDarwin [
-    swift
-  ];
-
-  buildInputs = lib.optionals stdenv.isDarwin [
-    darwin.apple_sdk.frameworks.AppKit
+  nativeBuildInputs = lib.optionals effectiveStdenv.isDarwin [
+    swiftPackages.swift
   ];
 
   buildPhase =
