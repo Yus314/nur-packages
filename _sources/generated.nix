@@ -79,13 +79,13 @@
   };
   kakoune-scrollback = {
     pname = "kakoune-scrollback";
-    version = "b4b3bee4327cc9a64ae45702b4aa0aef1a7bb55a";
+    version = "eec1f0daaf2ad12172d797212e136a6649cd74d3";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "kakoune-scrollback";
-      rev = "b4b3bee4327cc9a64ae45702b4aa0aef1a7bb55a";
+      rev = "eec1f0daaf2ad12172d797212e136a6649cd74d3";
       fetchSubmodules = false;
-      sha256 = "sha256-dVM7Dv73ypxy3FPHMWyApI6CFLvsXXYJLNMlxtBSHpM=";
+      sha256 = "sha256-/2GG3ygKMAM7Kr6ph2CzBpHvIAjX5WVLCgAmFSfnp3M=";
     };
     date = "2026-02-23";
   };
