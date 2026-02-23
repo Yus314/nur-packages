@@ -98,3 +98,8 @@ fetch.github = "anhsirk0/kakoune-themes"
 src.git = "https://github.com/Yus314/kakoune-scrollback"
 src.branch = "master"
 fetch.github = "Yus314/kakoune-scrollback"
+
+[kakoune-autothemes]
+src.git = "https://github.com/Yus314/kakoune-autothemes"
+src.branch = "master"
+fetch.github = "Yus314/kakoune-autothemes"
