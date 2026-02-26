@@ -178,7 +178,7 @@
     },
     "kakoune-themes": {
         "cargoLocks": null,
-        "date": "2024-09-04",
+        "date": "2026-02-26",
         "extract": null,
         "name": "kakoune-themes",
         "passthru": null,
@@ -190,12 +190,12 @@
             "name": null,
             "owner": "Yus314",
             "repo": "kakoune-themes",
-            "rev": "263a7da47404ea94cf43eeab89167d828caea565",
-            "sha256": "sha256-6ZJuhxMozTKtS5gTmFcVS99+stCaxXcXlqCdlvm5VE8=",
+            "rev": "109700f2291c1408af4b0dc2df6639c0481f7ffd",
+            "sha256": "sha256-Zi4/5PQ+GhBq4mK0qYGC+4TnU8FILeCf3OBoYld7vnY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "263a7da47404ea94cf43eeab89167d828caea565"
+        "version": "109700f2291c1408af4b0dc2df6639c0481f7ffd"
     },
     "lean4-mode": {
         "cargoLocks": null,
