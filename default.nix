@@ -37,6 +37,9 @@ rec {
   # Niri packages
   niri-taskbar = pkgs.callPackage ./pkgs/niri-taskbar { source = sources.niri-taskbar; };
 
+  # Sprout
+  sprout = pkgs.callPackage ./pkgs/sprout { source = sources.sprout; };
+
   # Nyxt packages
   nx-rbw = pkgs.callPackage ./pkgs/nx-rbw { source = sources.nx-rbw; };
   nx-zotero = pkgs.callPackage ./pkgs/nx-zotero { source = sources.nx-zotero; };
@@ -58,7 +61,7 @@ rec {
   kakounePlugins = pkgs.recurseIntoAttrs (
     pkgs.callPackage ./pkgs/kakoune-plugins {
       inherit (pkgs.kakouneUtils) buildKakounePluginFrom2Nix;
-      inherit sources;
+      inherit sources sprout;
     }
   );
 }

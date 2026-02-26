@@ -90,9 +90,9 @@ src.pypi = "rich_click"
 fetch.pypi = "rich_click"
 
 [kakoune-themes]
-src.git = "https://github.com/anhsirk0/kakoune-themes"
+src.git = "https://github.com/Yus314/kakoune-themes"
 src.branch = "master"
-fetch.github = "anhsirk0/kakoune-themes"
+fetch.github = "Yus314/kakoune-themes"
 
 [kakoune-scrollback]
 src.git = "https://github.com/Yus314/kakoune-scrollback"
@@ -103,3 +103,8 @@ fetch.github = "Yus314/kakoune-scrollback"
 src.git = "https://github.com/Yus314/kakoune-autothemes"
 src.branch = "master"
 fetch.github = "Yus314/kakoune-autothemes"
+
+[sprout]
+src.git = "https://github.com/Yus314/sprout"
+src.branch = "main"
+fetch.github = "Yus314/sprout"
