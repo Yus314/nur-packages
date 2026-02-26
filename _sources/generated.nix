@@ -219,13 +219,13 @@
   };
   sprout = {
     pname = "sprout";
-    version = "a8b6bfacb7bf6f7258d27a2420d94f8dc3c29902";
+    version = "c133fe74a2435620eb18e383bf3ed0606886171d";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "sprout";
-      rev = "a8b6bfacb7bf6f7258d27a2420d94f8dc3c29902";
+      rev = "c133fe74a2435620eb18e383bf3ed0606886171d";
       fetchSubmodules = false;
-      sha256 = "sha256-Zacd0bhzWXxyKng394QgVMEkRrE4pdwKvEMJbwlSC48=";
+      sha256 = "sha256-2nB2zaXmuZT/Coz67oXthTD1lqMroHK0AkL4BMFF864=";
     };
     date = "2026-02-27";
   };
