@@ -103,13 +103,13 @@
   };
   kakoune-themes = {
     pname = "kakoune-themes";
-    version = "109700f2291c1408af4b0dc2df6639c0481f7ffd";
+    version = "753114cd7e9724f30bc7c562a5950f39de983253";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "kakoune-themes";
-      rev = "109700f2291c1408af4b0dc2df6639c0481f7ffd";
+      rev = "753114cd7e9724f30bc7c562a5950f39de983253";
       fetchSubmodules = false;
-      sha256 = "sha256-Zi4/5PQ+GhBq4mK0qYGC+4TnU8FILeCf3OBoYld7vnY=";
+      sha256 = "sha256-iro6nNFdmiWrD+6ypEV1p0zj0muBx9He421TP1EfsXw=";
     };
     date = "2026-02-26";
   };
