@@ -397,12 +397,12 @@
             "name": null,
             "owner": "Yus314",
             "repo": "sprout",
-            "rev": "7bddd14748cad401d06ca5ac75b1dbbde86bf394",
-            "sha256": "sha256-f+XLkK4ujzkwClD/D3Uh0Z7oIOLKLtUbDkORa1swGn8=",
+            "rev": "6f68b0dea785139e2c82f1e67931af49b459040c",
+            "sha256": "sha256-8p1qu2M1dM1FG97ylmaTdJ4Uujq574d7WfqCTp0I/cM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "7bddd14748cad401d06ca5ac75b1dbbde86bf394"
+        "version": "6f68b0dea785139e2c82f1e67931af49b459040c"
     },
     "typst-preview": {
         "cargoLocks": null,
