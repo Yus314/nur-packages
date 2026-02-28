@@ -108,15 +108,15 @@
   };
   kakoune-themes = {
     pname = "kakoune-themes";
-    version = "8172e0f8173cc40e66d57c17323f0553788d752e";
+    version = "2a296b3fc4a1b4f87387202370aa61da85e2448b";
     src = fetchFromGitHub {
-      owner = "Yus314";
+      owner = "anhsirk0";
       repo = "kakoune-themes";
-      rev = "8172e0f8173cc40e66d57c17323f0553788d752e";
+      rev = "2a296b3fc4a1b4f87387202370aa61da85e2448b";
       fetchSubmodules = false;
-      sha256 = "sha256-+IKRRExWFZU64EGLwzRv09XjP1Cw1C3kWD9zAy0nNvw=";
+      sha256 = "sha256-qgeZroJPLMCsdwANHyndSbpTpmgbl1qUjyyyngfFOCY=";
     };
-    date = "2026-02-27";
+    date = "2026-02-28";
   };
   lean4-mode = {
     pname = "lean4-mode";
@@ -224,13 +224,13 @@
   };
   sprout = {
     pname = "sprout";
-    version = "6f68b0dea785139e2c82f1e67931af49b459040c";
+    version = "9014098e308d65ccf781497c5729f79fb1c7d20f";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "sprout";
-      rev = "6f68b0dea785139e2c82f1e67931af49b459040c";
+      rev = "9014098e308d65ccf781497c5729f79fb1c7d20f";
       fetchSubmodules = false;
-      sha256 = "sha256-8p1qu2M1dM1FG97ylmaTdJ4Uujq574d7WfqCTp0I/cM=";
+      sha256 = "sha256-4BrcWHeuBvVO3rHGmyRMac47cCKsSRl2lcGe+Q/OXJM=";
     };
     date = "2026-02-28";
   };

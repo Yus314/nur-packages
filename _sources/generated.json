@@ -178,7 +178,7 @@
     },
     "kakoune-themes": {
         "cargoLock": null,
-        "date": "2026-02-27",
+        "date": "2026-02-28",
         "extract": null,
         "name": "kakoune-themes",
         "passthru": null,
@@ -188,14 +188,14 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "Yus314",
+            "owner": "anhsirk0",
             "repo": "kakoune-themes",
-            "rev": "8172e0f8173cc40e66d57c17323f0553788d752e",
-            "sha256": "sha256-+IKRRExWFZU64EGLwzRv09XjP1Cw1C3kWD9zAy0nNvw=",
+            "rev": "2a296b3fc4a1b4f87387202370aa61da85e2448b",
+            "sha256": "sha256-qgeZroJPLMCsdwANHyndSbpTpmgbl1qUjyyyngfFOCY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "8172e0f8173cc40e66d57c17323f0553788d752e"
+        "version": "2a296b3fc4a1b4f87387202370aa61da85e2448b"
     },
     "lean4-mode": {
         "cargoLock": null,
@@ -397,12 +397,12 @@
             "name": null,
             "owner": "Yus314",
             "repo": "sprout",
-            "rev": "6f68b0dea785139e2c82f1e67931af49b459040c",
-            "sha256": "sha256-8p1qu2M1dM1FG97ylmaTdJ4Uujq574d7WfqCTp0I/cM=",
+            "rev": "9014098e308d65ccf781497c5729f79fb1c7d20f",
+            "sha256": "sha256-4BrcWHeuBvVO3rHGmyRMac47cCKsSRl2lcGe+Q/OXJM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6f68b0dea785139e2c82f1e67931af49b459040c"
+        "version": "9014098e308d65ccf781497c5729f79fb1c7d20f"
     },
     "typst-preview": {
         "cargoLock": null,
