@@ -224,15 +224,15 @@
   };
   sprout = {
     pname = "sprout";
-    version = "fe592f03dccc7ee9040ca510cff5e4d4b4073814";
+    version = "a7116769782a1859c314ba0d2aa8adf1c32106cb";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "sprout";
-      rev = "fe592f03dccc7ee9040ca510cff5e4d4b4073814";
+      rev = "a7116769782a1859c314ba0d2aa8adf1c32106cb";
       fetchSubmodules = false;
-      sha256 = "sha256-DYRs+E+5Eb2Pg5KXa0zfiVZdt2nAVigG+yp7JQ37ApA=";
+      sha256 = "sha256-YetqepCATBDwWo3ev18+CkmzeJhWyRkcja8nosBvC8w=";
     };
-    date = "2026-02-28";
+    date = "2026-03-01";
   };
   typst-preview = {
     pname = "typst-preview";
