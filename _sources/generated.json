@@ -157,7 +157,7 @@
     },
     "kakoune-scrollback": {
         "cargoLock": null,
-        "date": "2026-02-25",
+        "date": "2026-03-02",
         "extract": null,
         "name": "kakoune-scrollback",
         "passthru": null,
@@ -169,16 +169,16 @@
             "name": null,
             "owner": "Yus314",
             "repo": "kakoune-scrollback",
-            "rev": "bf0ad0ba9f70f6d7a7ce8bd86a98bf3c2947a205",
-            "sha256": "sha256-N1/kE93fBGrW+QqRX0fJ+uRa+yKNH0KRf1dXLJAnMTU=",
+            "rev": "6d94c39bd18529818801830e8681268d742ec4e0",
+            "sha256": "sha256-Z8boNNr8MOehHdeUk6P/01E4xY/HZbNuVI7cdkc1jjI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "bf0ad0ba9f70f6d7a7ce8bd86a98bf3c2947a205"
+        "version": "6d94c39bd18529818801830e8681268d742ec4e0"
     },
     "kakoune-themes": {
         "cargoLock": null,
-        "date": "2026-02-28",
+        "date": "2026-03-02",
         "extract": null,
         "name": "kakoune-themes",
         "passthru": null,
@@ -190,12 +190,12 @@
             "name": null,
             "owner": "anhsirk0",
             "repo": "kakoune-themes",
-            "rev": "2a296b3fc4a1b4f87387202370aa61da85e2448b",
-            "sha256": "sha256-qgeZroJPLMCsdwANHyndSbpTpmgbl1qUjyyyngfFOCY=",
+            "rev": "f419698fa4c0d4e73e8f1ff006d50968f5e43ca8",
+            "sha256": "sha256-4dNcT4Kqk1o38xzspaFCMHj2JB8KDYV8TQTQP0u31zE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "2a296b3fc4a1b4f87387202370aa61da85e2448b"
+        "version": "f419698fa4c0d4e73e8f1ff006d50968f5e43ca8"
     },
     "lean4-mode": {
         "cargoLock": null,

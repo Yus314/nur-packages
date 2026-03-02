@@ -96,27 +96,27 @@
   };
   kakoune-scrollback = {
     pname = "kakoune-scrollback";
-    version = "bf0ad0ba9f70f6d7a7ce8bd86a98bf3c2947a205";
+    version = "6d94c39bd18529818801830e8681268d742ec4e0";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "kakoune-scrollback";
-      rev = "bf0ad0ba9f70f6d7a7ce8bd86a98bf3c2947a205";
+      rev = "6d94c39bd18529818801830e8681268d742ec4e0";
       fetchSubmodules = false;
-      sha256 = "sha256-N1/kE93fBGrW+QqRX0fJ+uRa+yKNH0KRf1dXLJAnMTU=";
+      sha256 = "sha256-Z8boNNr8MOehHdeUk6P/01E4xY/HZbNuVI7cdkc1jjI=";
     };
-    date = "2026-02-25";
+    date = "2026-03-02";
   };
   kakoune-themes = {
     pname = "kakoune-themes";
-    version = "2a296b3fc4a1b4f87387202370aa61da85e2448b";
+    version = "f419698fa4c0d4e73e8f1ff006d50968f5e43ca8";
     src = fetchFromGitHub {
       owner = "anhsirk0";
       repo = "kakoune-themes";
-      rev = "2a296b3fc4a1b4f87387202370aa61da85e2448b";
+      rev = "f419698fa4c0d4e73e8f1ff006d50968f5e43ca8";
       fetchSubmodules = false;
-      sha256 = "sha256-qgeZroJPLMCsdwANHyndSbpTpmgbl1qUjyyyngfFOCY=";
+      sha256 = "sha256-4dNcT4Kqk1o38xzspaFCMHj2JB8KDYV8TQTQP0u31zE=";
     };
-    date = "2026-02-28";
+    date = "2026-03-02";
   };
   lean4-mode = {
     pname = "lean4-mode";
