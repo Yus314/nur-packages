@@ -96,13 +96,13 @@
   };
   kakoune-markdown-render = {
     pname = "kakoune-markdown-render";
-    version = "9c6c423971d3266684e543194f0294426154ecb0";
+    version = "d669cfe1922d98a5f5a347656e41c6981ab14371";
     src = fetchFromGitHub {
       owner = "Yus314";
       repo = "kakoune-markdown-render";
-      rev = "9c6c423971d3266684e543194f0294426154ecb0";
+      rev = "d669cfe1922d98a5f5a347656e41c6981ab14371";
       fetchSubmodules = false;
-      sha256 = "sha256-wayhgyXteqExbLGLGLHqzWrwg6MFYBAm3S9LaZALOv8=";
+      sha256 = "sha256-6Doavy5S52Sh1SM9WU95D2UUurYhX9TjUPf6Vi7GtSI=";
     };
     date = "2026-03-03";
   };
