@@ -155,6 +155,27 @@
         },
         "version": "ffc35c1419cd60f218f63b0cf652ca959d43f50e"
     },
+    "kakoune-markdown-render": {
+        "cargoLock": null,
+        "date": "2026-03-03",
+        "extract": null,
+        "name": "kakoune-markdown-render",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Yus314",
+            "repo": "kakoune-markdown-render",
+            "rev": "0fca97e331296904459f8089ce7d787f126423c1",
+            "sha256": "sha256-CmAhkMzzEn25QtWFJkXZcBc3X+Ot5y3T9983Kk5UuO4=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "0fca97e331296904459f8089ce7d787f126423c1"
+    },
     "kakoune-scrollback": {
         "cargoLock": null,
         "date": "2026-03-02",

@@ -104,6 +104,11 @@ src.git = "https://github.com/Yus314/kakoune-autothemes"
 src.branch = "master"
 fetch.github = "Yus314/kakoune-autothemes"
 
+[kakoune-markdown-render]
+src.git = "https://github.com/Yus314/kakoune-markdown-render"
+src.branch = "master"
+fetch.github = "Yus314/kakoune-markdown-render"
+
 [sprout]
 src.git = "https://github.com/Yus314/sprout"
 src.branch = "main"
