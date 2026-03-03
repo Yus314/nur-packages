@@ -12,8 +12,10 @@ rustPlatform.buildRustPackage rec {
   cargoHash = "sha256-hq1qrwX+V0FqCwEIPjq2NdhiMf6x5ETdRlXriZuU8jg=";
 
   postInstall = ''
-    install -Dm644 rc/markdown-render.kak \
-      $out/share/kak/autoload/plugins/kakoune-markdown-render/markdown-render.kak
+    for f in rc/*.kak; do
+      install -Dm644 "$f" \
+        "$out/share/kak/autoload/plugins/kakoune-markdown-render/$(basename "$f")"
+    done
   '';
 
   meta = with lib; {
