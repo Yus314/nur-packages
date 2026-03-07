@@ -36,15 +36,15 @@
   };
   cskk = {
     pname = "cskk";
-    version = "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d";
+    version = "4d24f99564e554c2770ed87a8badad52305ec021";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "bbe34fcde4c314f9e9bb975d0806885ead1b8d8d";
+      rev = "4d24f99564e554c2770ed87a8badad52305ec021";
       fetchSubmodules = false;
-      sha256 = "sha256-olQ0ru5JPx3F0nL+EVR5rmR7nAfceUPSzaATRACJUJU=";
+      sha256 = "sha256-ixe+isnjUyGbrIPeZmb6rwyIXinVDpNyhuKnyNT9mR0=";
     };
-    date = "2026-01-04";
+    date = "2026-03-07";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
