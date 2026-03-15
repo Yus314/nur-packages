@@ -52,7 +52,7 @@
     },
     "cskk": {
         "cargoLock": null,
-        "date": "2026-03-07",
+        "date": "2026-03-15",
         "extract": null,
         "name": "cskk",
         "passthru": null,
@@ -64,12 +64,12 @@
             "name": null,
             "owner": "naokiri",
             "repo": "cskk",
-            "rev": "4d24f99564e554c2770ed87a8badad52305ec021",
-            "sha256": "sha256-ixe+isnjUyGbrIPeZmb6rwyIXinVDpNyhuKnyNT9mR0=",
+            "rev": "1cd2559617fa91ec9dfcbf2a47089433cd1f8a02",
+            "sha256": "sha256-Ua/jmqW9FWmxbYQF1DcFbMIv57BDpEDu1Lv1PS7t43s=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4d24f99564e554c2770ed87a8badad52305ec021"
+        "version": "1cd2559617fa91ec9dfcbf2a47089433cd1f8a02"
     },
     "fcitx5-cskk": {
         "cargoLock": null,
