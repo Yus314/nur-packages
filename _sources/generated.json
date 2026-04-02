@@ -31,7 +31,7 @@
     },
     "claude-code-ide": {
         "cargoLock": null,
-        "date": "2026-02-02",
+        "date": "2026-04-02",
         "extract": null,
         "name": "claude-code-ide",
         "passthru": null,
@@ -43,12 +43,12 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "5f12e60c6d2d1802c8c1b7944bbdf935d5db1364",
-            "sha256": "sha256-tivRvgfI/8XBRImE3wuZ1UD0t2dNWYscv3Aa53BmHZE=",
+            "rev": "56db02ee386d009ddb8b1482310f1f9beeefb810",
+            "sha256": "sha256-qH1QnG5G+0UiH/v0KaS7oSpQZY+BkUMZvrjbx6kyFhg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "5f12e60c6d2d1802c8c1b7944bbdf935d5db1364"
+        "version": "56db02ee386d009ddb8b1482310f1f9beeefb810"
     },
     "cskk": {
         "cargoLock": null,
@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-xVSj08vJKLMqBcB0I2GVsshlblDKtlUYeG4k39Hq5FQ=",
+            "sha256": "sha256-SDxVz4Nj4WFWUDfkCwWGLYsaOE6uLxT45Sq/UYeT7ig=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.9.3970.45.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.7.9.3970.47.universal.dmg"
         },
-        "version": "7.9.3970.45"
+        "version": "7.9.3970.47"
     }
 }
