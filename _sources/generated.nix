@@ -220,10 +220,10 @@
   };
   qutebrowser-darwin = {
     pname = "qutebrowser-darwin";
-    version = "3.6.3";
+    version = "3.7.0";
     src = fetchurl {
-      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.6.3/qutebrowser-3.6.3-arm64.dmg";
-      sha256 = "sha256-Kk+uWs2QJouaD9U5ma3AJsR4HtqW/Blh8zM9Faj1u00=";
+      url = "https://github.com/qutebrowser/qutebrowser/releases/download/v3.7.0/qutebrowser-3.7.0-arm64.dmg";
+      sha256 = "sha256-mBcCQb8Sov4d6r/8gSC3DcjgDlVbtxLDh1HESPBJVKM=";
     };
   };
   rich-click = {
