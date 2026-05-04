@@ -406,7 +406,7 @@
     },
     "sprout": {
         "cargoLock": null,
-        "date": "2026-03-01",
+        "date": "2026-05-04",
         "extract": null,
         "name": "sprout",
         "passthru": null,
@@ -418,12 +418,12 @@
             "name": null,
             "owner": "Yus314",
             "repo": "sprout",
-            "rev": "a7116769782a1859c314ba0d2aa8adf1c32106cb",
-            "sha256": "sha256-YetqepCATBDwWo3ev18+CkmzeJhWyRkcja8nosBvC8w=",
+            "rev": "f6ef38fc2c9d074a50d7c521b4bfd8a71831d5ce",
+            "sha256": "sha256-p0h6acBXeCW3g7w5GOjzjzNN4HP/8O4TWEJluOTT4pk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "a7116769782a1859c314ba0d2aa8adf1c32106cb"
+        "version": "f6ef38fc2c9d074a50d7c521b4bfd8a71831d5ce"
     },
     "typst-preview": {
         "cargoLock": null,
