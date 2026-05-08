@@ -9,7 +9,7 @@ rustPlatform.buildRustPackage {
   inherit (source) version src;
 
   useFetchVendor = true;
-  cargoHash = "sha256-6bAxrqtKiaCfY6jRVDxBr1T3mKt6x0DiymXS21f2C5w=";
+  cargoHash = "sha256-nFudrLbOfG75dEh+dP/ovGD71Su2sQ/RBQ3uyUghDhA=";
 
   meta = with lib; {
     description = "Evergreen note cultivation CLI with spaced repetition";
