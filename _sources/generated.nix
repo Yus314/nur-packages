@@ -72,15 +72,15 @@
   };
   hledger-lots = {
     pname = "hledger-lots";
-    version = "a48b8aeacbbcc28dd3372892308e182992c3c624";
+    version = "6f37779259e055c963f196947629fb5d6389d840";
     src = fetchFromGitHub {
       owner = "brianjp93";
       repo = "hledger-lots";
-      rev = "a48b8aeacbbcc28dd3372892308e182992c3c624";
+      rev = "6f37779259e055c963f196947629fb5d6389d840";
       fetchSubmodules = false;
-      sha256 = "sha256-vrTpqZWCTQPsPyFAa1XC93REv2pFcoCe+4mSC2NeEN0=";
+      sha256 = "sha256-CiHLO+ucN6xML6eh+rcYOM9qX2a19b2DuNqC7SB4BDA=";
     };
-    date = "2024-11-14";
+    date = "2026-03-12";
   };
   kakoune-autothemes = {
     pname = "kakoune-autothemes";
