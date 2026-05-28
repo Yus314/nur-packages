@@ -228,10 +228,10 @@
   };
   rich-click = {
     pname = "rich-click";
-    version = "1.9.7";
+    version = "1.9.8";
     src = fetchurl {
-      url = "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.7.tar.gz";
-      sha256 = "sha256-AimXweMHMZlb28jsL4KBk0DUJUMjfwM6ADx7H4Q/xdw=";
+      url = "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.8.tar.gz";
+      sha256 = "sha256-QAj5IdqItdkWRsE07IgcFQDlprPwk+kOjylADglgg3E=";
     };
   };
   sprout = {
