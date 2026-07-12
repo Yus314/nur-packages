@@ -36,15 +36,15 @@
   };
   cskk = {
     pname = "cskk";
-    version = "95b16dedb9168d399c3a6e6fc6900b50edc5c72a";
+    version = "bd10649bbf79ced2f4b7136e1ac0561f06d4fadc";
     src = fetchFromGitHub {
       owner = "naokiri";
       repo = "cskk";
-      rev = "95b16dedb9168d399c3a6e6fc6900b50edc5c72a";
+      rev = "bd10649bbf79ced2f4b7136e1ac0561f06d4fadc";
       fetchSubmodules = false;
-      sha256 = "sha256-LReVfDnA/cNeL4sKSufUM4kX9kK1925WwdVfycBViVk=";
+      sha256 = "sha256-AMbsuZLFNYoKo6YCsZgrmMDCL0VUsweQtV3ivHhatE8=";
     };
-    date = "2026-06-27";
+    date = "2026-07-11";
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
@@ -260,10 +260,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "8.0.4033.57";
+    version = "8.1.4087.48";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.0.4033.57.universal.dmg";
-      sha256 = "sha256-otjJcL7HXZr3h6zOtEmM4twqb0u7f35K45yU/taKanc=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.48.universal.dmg";
+      sha256 = "sha256-qe7zuRmN7w31Q553gprSpL1nDF4dHg1egyVQ2V26z+o=";
     };
   };
 }
