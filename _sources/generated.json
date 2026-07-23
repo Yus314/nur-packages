@@ -31,7 +31,7 @@
     },
     "claude-code-ide": {
         "cargoLock": null,
-        "date": "2026-07-19",
+        "date": "2026-07-21",
         "extract": null,
         "name": "claude-code-ide",
         "passthru": null,
@@ -43,12 +43,12 @@
             "name": null,
             "owner": "manzaltu",
             "repo": "claude-code-ide.el",
-            "rev": "e3422540eee799547923ffcbaafb78b332bb7e94",
-            "sha256": "sha256-h7hC7GG2gLvrTGlZWMLBycXBNUvCD8I094z8290djv4=",
+            "rev": "1de17bbadc650962a05fd68463fdff71697ec649",
+            "sha256": "sha256-jW0R4TqXqVIumHJB9DziqB7NPfMmIKbhsn2H1dLwT6A=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "e3422540eee799547923ffcbaafb78b332bb7e94"
+        "version": "1de17bbadc650962a05fd68463fdff71697ec649"
     },
     "cskk": {
         "cargoLock": null,
@@ -319,7 +319,7 @@
     },
     "org-modern-indent": {
         "cargoLock": null,
-        "date": "2026-01-02",
+        "date": "2026-07-21",
         "extract": null,
         "name": "org-modern-indent",
         "passthru": null,
@@ -331,12 +331,12 @@
             "name": null,
             "owner": "jdtsmith",
             "repo": "org-modern-indent",
-            "rev": "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4",
-            "sha256": "sha256-+q7KmbU8A+uR61BSa528vYbdFSj2WGsFWYW/5q7J9Kw=",
+            "rev": "86bd83ee1ad95f123810eb3b116beb543db1960a",
+            "sha256": "sha256-vQzYk5qejCBehpbxkMceOMsmeLyjnAstpezZw/ZR1jQ=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ebf9a8e571db523dc6e4cd9ed80d0e0626983ae4"
+        "version": "86bd83ee1ad95f123810eb3b116beb543db1960a"
     },
     "org-roam-review": {
         "cargoLock": null,
@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-E8L1zN4oHTX02FjqKydOyNUTZX800RBiE4j5t8NFpwI=",
+            "sha256": "sha256-yDyJihftphrHmnRP75BgTKvjIsJ/0cRgUMThA3fhw0M=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.55.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.56.universal.dmg"
         },
-        "version": "8.1.4087.55"
+        "version": "8.1.4087.56"
     }
 }
