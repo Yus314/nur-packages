@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-yDyJihftphrHmnRP75BgTKvjIsJ/0cRgUMThA3fhw0M=",
+            "sha256": "sha256-m6yhLm/cIBnZ9RESftI8/H2rDe5oO/W2CyMNJNFuVMk=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.56.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.58.universal.dmg"
         },
-        "version": "8.1.4087.56"
+        "version": "8.1.4087.58"
     }
 }
