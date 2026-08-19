@@ -94,7 +94,7 @@
     },
     "gcal": {
         "cargoLock": null,
-        "date": "2024-06-19",
+        "date": "2026-08-19",
         "extract": null,
         "name": "gcal",
         "passthru": null,
@@ -106,12 +106,12 @@
             "name": null,
             "owner": "misohena",
             "repo": "gcal",
-            "rev": "7b4fc16906850c7be7100d6e239c183ed9a054e4",
-            "sha256": "sha256-jU4dwlJaGjufbmOzTe7V/5Av2WuOZGMc49VmeX7yh8Y=",
+            "rev": "de0481398a80a79e3967a79966e38782098390e8",
+            "sha256": "sha256-F6hx7AdSRm7CGYkvdiTAJlKsdMwibbIap6B0jn8AKZg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "7b4fc16906850c7be7100d6e239c183ed9a054e4"
+        "version": "de0481398a80a79e3967a79966e38782098390e8"
     },
     "hledger-lots": {
         "cargoLock": null,
@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-rjS2YUXepqy4zhXDqKo80+Iv3pCU5lLdHUAJYYhw504=",
+            "sha256": "sha256-3jaygGtEE/fZNqDGuzbqokFyG0b+vixy0Aey5rCbmP4=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.64.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.68.universal.dmg"
         },
-        "version": "8.1.4087.64"
+        "version": "8.1.4087.68"
     }
 }
