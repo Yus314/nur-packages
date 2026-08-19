@@ -60,15 +60,15 @@
   };
   gcal = {
     pname = "gcal";
-    version = "7b4fc16906850c7be7100d6e239c183ed9a054e4";
+    version = "de0481398a80a79e3967a79966e38782098390e8";
     src = fetchFromGitHub {
       owner = "misohena";
       repo = "gcal";
-      rev = "7b4fc16906850c7be7100d6e239c183ed9a054e4";
+      rev = "de0481398a80a79e3967a79966e38782098390e8";
       fetchSubmodules = false;
-      sha256 = "sha256-jU4dwlJaGjufbmOzTe7V/5Av2WuOZGMc49VmeX7yh8Y=";
+      sha256 = "sha256-F6hx7AdSRm7CGYkvdiTAJlKsdMwibbIap6B0jn8AKZg=";
     };
-    date = "2024-06-19";
+    date = "2026-08-19";
   };
   hledger-lots = {
     pname = "hledger-lots";
@@ -260,10 +260,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "8.1.4087.64";
+    version = "8.1.4087.68";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.64.universal.dmg";
-      sha256 = "sha256-rjS2YUXepqy4zhXDqKo80+Iv3pCU5lLdHUAJYYhw504=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.68.universal.dmg";
+      sha256 = "sha256-3jaygGtEE/fZNqDGuzbqokFyG0b+vixy0Aey5rCbmP4=";
     };
   };
 }
