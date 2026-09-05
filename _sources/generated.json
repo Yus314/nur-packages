@@ -73,7 +73,7 @@
     },
     "fcitx5-cskk": {
         "cargoLock": null,
-        "date": "2026-01-12",
+        "date": "2026-09-04",
         "extract": null,
         "name": "fcitx5-cskk",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "fcitx",
             "repo": "fcitx5-cskk",
-            "rev": "da7e2ce7d8f1319368adae3d9e96513058c40018",
-            "sha256": "sha256-qJ3UQphoHOSa4wYowR6wQp+RakovoQVzuii4DAWUWuY=",
+            "rev": "e4a6ee05eaef642b125b5ed0534275d2bc8b6544",
+            "sha256": "sha256-a1aXqSgUzZWJYiWDVIH5V6yqUs08DqioNPdDBzSDxWU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "da7e2ce7d8f1319368adae3d9e96513058c40018"
+        "version": "e4a6ee05eaef642b125b5ed0534275d2bc8b6544"
     },
     "gcal": {
         "cargoLock": null,
@@ -398,11 +398,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-QAj5IdqItdkWRsE07IgcFQDlprPwk+kOjylADglgg3E=",
+            "sha256": "sha256-Mky6dRPNQYfukrLu8h8HFxTkW+BiRYyLFXvX4MgRA+M=",
             "type": "url",
-            "url": "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.8.tar.gz"
+            "url": "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.9.tar.gz"
         },
-        "version": "1.9.8"
+        "version": "1.9.9"
     },
     "sprout": {
         "cargoLock": null,
@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-uFHIWeRcgwQqZrAAJ3UiuZWRZxuzPx2AOYKJVHJhuTA=",
+            "sha256": "sha256-qxdvVopFF2UiaBRBxBnZfginDg/0jcGwWYQjxTr8j90=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.75.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.47.universal.dmg"
         },
-        "version": "8.1.4087.75"
+        "version": "8.2.4133.47"
     }
 }

@@ -48,15 +48,15 @@
   };
   fcitx5-cskk = {
     pname = "fcitx5-cskk";
-    version = "da7e2ce7d8f1319368adae3d9e96513058c40018";
+    version = "e4a6ee05eaef642b125b5ed0534275d2bc8b6544";
     src = fetchFromGitHub {
       owner = "fcitx";
       repo = "fcitx5-cskk";
-      rev = "da7e2ce7d8f1319368adae3d9e96513058c40018";
+      rev = "e4a6ee05eaef642b125b5ed0534275d2bc8b6544";
       fetchSubmodules = false;
-      sha256 = "sha256-qJ3UQphoHOSa4wYowR6wQp+RakovoQVzuii4DAWUWuY=";
+      sha256 = "sha256-a1aXqSgUzZWJYiWDVIH5V6yqUs08DqioNPdDBzSDxWU=";
     };
-    date = "2026-01-12";
+    date = "2026-09-04";
   };
   gcal = {
     pname = "gcal";
@@ -228,10 +228,10 @@
   };
   rich-click = {
     pname = "rich-click";
-    version = "1.9.8";
+    version = "1.9.9";
     src = fetchurl {
-      url = "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.8.tar.gz";
-      sha256 = "sha256-QAj5IdqItdkWRsE07IgcFQDlprPwk+kOjylADglgg3E=";
+      url = "https://pypi.org/packages/source/r/rich_click/rich_click-1.9.9.tar.gz";
+      sha256 = "sha256-Mky6dRPNQYfukrLu8h8HFxTkW+BiRYyLFXvX4MgRA+M=";
     };
   };
   sprout = {
@@ -260,10 +260,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "8.1.4087.75";
+    version = "8.2.4133.47";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.1.4087.75.universal.dmg";
-      sha256 = "sha256-uFHIWeRcgwQqZrAAJ3UiuZWRZxuzPx2AOYKJVHJhuTA=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.47.universal.dmg";
+      sha256 = "sha256-qxdvVopFF2UiaBRBxBnZfginDg/0jcGwWYQjxTr8j90=";
     };
   };
 }
