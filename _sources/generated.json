@@ -298,7 +298,7 @@
     },
     "ol-emacs-slack": {
         "cargoLock": null,
-        "date": "2026-01-22",
+        "date": "2026-09-10",
         "extract": null,
         "name": "ol-emacs-slack",
         "passthru": null,
@@ -310,12 +310,12 @@
             "name": null,
             "owner": "ag91",
             "repo": "ol-emacs-slack",
-            "rev": "93ecc9d5fbe94f1693a4aa0226a09f35b55d9acd",
-            "sha256": "sha256-mnDlzuGsjETrUMvor9p5nN2qdYXSawVZOB/lL8Lnh+8=",
+            "rev": "9650dc53f1db3cd7c17fe32bf4dc826fa11778c4",
+            "sha256": "sha256-Q3ug4+BrgXiBu1F4V5swmCnQVOewRhPsuqlXUpJ5VWo=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "93ecc9d5fbe94f1693a4aa0226a09f35b55d9acd"
+        "version": "9650dc53f1db3cd7c17fe32bf4dc826fa11778c4"
     },
     "org-modern-indent": {
         "cargoLock": null,

@@ -176,15 +176,15 @@
   };
   ol-emacs-slack = {
     pname = "ol-emacs-slack";
-    version = "93ecc9d5fbe94f1693a4aa0226a09f35b55d9acd";
+    version = "9650dc53f1db3cd7c17fe32bf4dc826fa11778c4";
     src = fetchFromGitHub {
       owner = "ag91";
       repo = "ol-emacs-slack";
-      rev = "93ecc9d5fbe94f1693a4aa0226a09f35b55d9acd";
+      rev = "9650dc53f1db3cd7c17fe32bf4dc826fa11778c4";
       fetchSubmodules = false;
-      sha256 = "sha256-mnDlzuGsjETrUMvor9p5nN2qdYXSawVZOB/lL8Lnh+8=";
+      sha256 = "sha256-Q3ug4+BrgXiBu1F4V5swmCnQVOewRhPsuqlXUpJ5VWo=";
     };
-    date = "2026-01-22";
+    date = "2026-09-10";
   };
   org-modern-indent = {
     pname = "org-modern-indent";
