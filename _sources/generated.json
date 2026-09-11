@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-qxdvVopFF2UiaBRBxBnZfginDg/0jcGwWYQjxTr8j90=",
+            "sha256": "sha256-LuuQivv5FS8fsr6js9F5frP1t8BMLS92AGQxJK4on2A=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.47.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.52.universal.dmg"
         },
-        "version": "8.2.4133.47"
+        "version": "8.2.4133.52"
     }
 }
