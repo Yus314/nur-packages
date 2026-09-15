@@ -8,10 +8,10 @@
 {
   aquaskk = {
     pname = "aquaskk";
-    version = "4.7.8";
+    version = "4.7.9";
     src = fetchurl {
-      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.8/AquaSKK-4.7.8.pkg";
-      sha256 = "sha256-4MKHJP9utaAflVhaJdJaCMQpamV8o1kO4Uz9lzGN+V4=";
+      url = "https://github.com/codefirst/aquaskk/releases/download/4.7.9/AquaSKK-4.7.9.pkg";
+      sha256 = "sha256-zQ2o7GfBv8f5blGf8eRBPNToX2AiovhuDhmEkCweS3g=";
     };
   };
   bizin-gothic-nf = {
@@ -24,15 +24,15 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "32a8a904ac21e52c54231b99796d12ae36df9c22";
+    version = "50a3d55262805d7207889ed429ff30da96fbf68b";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "32a8a904ac21e52c54231b99796d12ae36df9c22";
+      rev = "50a3d55262805d7207889ed429ff30da96fbf68b";
       fetchSubmodules = false;
-      sha256 = "sha256-LlJn5lbJpN/fHLggy8KmOAFt3abcG0oZAahruuxCSgM=";
+      sha256 = "sha256-u+87PjLh0Mc7C8nvDG758rdgpmjED8G/hO+FE1tj7DU=";
     };
-    date = "2026-08-07";
+    date = "2026-09-14";
   };
   cskk = {
     pname = "cskk";
