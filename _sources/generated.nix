@@ -260,10 +260,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "8.2.4133.89";
+    version = "8.2.4133.91";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.89.universal.dmg";
-      sha256 = "sha256-leD7kHwAnRHB0GSVWwQ1kqVqVJmm9eK6+nj+XXS5HrI=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.91.universal.dmg";
+      sha256 = "sha256-XmLfzXtdDQ5/Ioxp/z4sqj8JdjEkHpX/0iED+CNLx0k=";
     };
   };
 }
