@@ -132,15 +132,15 @@
   };
   lean4-mode = {
     pname = "lean4-mode";
-    version = "6d4030e494039383664a0c08348a5c137eb4641c";
+    version = "f03b82b5ee739903c175c69a48d1d3638b6f159f";
     src = fetchFromGitHub {
       owner = "leanprover-community";
       repo = "lean4-mode";
-      rev = "6d4030e494039383664a0c08348a5c137eb4641c";
+      rev = "f03b82b5ee739903c175c69a48d1d3638b6f159f";
       fetchSubmodules = false;
-      sha256 = "sha256-FzeGnxjtCpeYbDU3GzadCTnLGtDPoe1q8aTpaZBck7A=";
+      sha256 = "sha256-nTpe2kEUsUYeIkU+gipkjY+F+66J+/R934RWGOqWeJo=";
     };
-    date = "2026-09-28";
+    date = "2026-10-28";
   };
   niri-taskbar = {
     pname = "niri-taskbar";
