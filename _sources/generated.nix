@@ -132,15 +132,15 @@
   };
   lean4-mode = {
     pname = "lean4-mode";
-    version = "f03b82b5ee739903c175c69a48d1d3638b6f159f";
+    version = "8b86720aa942fde19803c1b33ec68567d5f40e14";
     src = fetchFromGitHub {
       owner = "leanprover-community";
       repo = "lean4-mode";
-      rev = "f03b82b5ee739903c175c69a48d1d3638b6f159f";
+      rev = "8b86720aa942fde19803c1b33ec68567d5f40e14";
       fetchSubmodules = false;
-      sha256 = "sha256-nTpe2kEUsUYeIkU+gipkjY+F+66J+/R934RWGOqWeJo=";
+      sha256 = "sha256-kdaM6QW7SEw9TAJz1CnirdNUFahCEbVUMn3njbcthkY=";
     };
-    date = "2026-10-28";
+    date = "2026-10-29";
   };
   niri-taskbar = {
     pname = "niri-taskbar";
@@ -260,10 +260,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "8.2.4133.94";
+    version = "8.2.4133.96";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.94.universal.dmg";
-      sha256 = "sha256-aqvWfSefYZ2qzS2KGNF3Ug91EYnRtqk22mRgfi95XrU=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.96.universal.dmg";
+      sha256 = "sha256-oywLidew1eTrXzKzeXCqSvDEZkvG1jFU5qbP17OhaEk=";
     };
   };
 }
