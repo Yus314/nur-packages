@@ -232,12 +232,12 @@
             "name": null,
             "owner": "leanprover-community",
             "repo": "lean4-mode",
-            "rev": "8b86720aa942fde19803c1b33ec68567d5f40e14",
-            "sha256": "sha256-kdaM6QW7SEw9TAJz1CnirdNUFahCEbVUMn3njbcthkY=",
+            "rev": "833a282ef20d3b2589671e1c2f4a4f44f8b21715",
+            "sha256": "sha256-Il/OxEuYd693XUOXrPSn9S4iH+4uLE4hgUcNwdLhNXU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "8b86720aa942fde19803c1b33ec68567d5f40e14"
+        "version": "833a282ef20d3b2589671e1c2f4a4f44f8b21715"
     },
     "niri-taskbar": {
         "cargoLock": null,

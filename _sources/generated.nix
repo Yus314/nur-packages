@@ -132,13 +132,13 @@
   };
   lean4-mode = {
     pname = "lean4-mode";
-    version = "8b86720aa942fde19803c1b33ec68567d5f40e14";
+    version = "833a282ef20d3b2589671e1c2f4a4f44f8b21715";
     src = fetchFromGitHub {
       owner = "leanprover-community";
       repo = "lean4-mode";
-      rev = "8b86720aa942fde19803c1b33ec68567d5f40e14";
+      rev = "833a282ef20d3b2589671e1c2f4a4f44f8b21715";
       fetchSubmodules = false;
-      sha256 = "sha256-kdaM6QW7SEw9TAJz1CnirdNUFahCEbVUMn3njbcthkY=";
+      sha256 = "sha256-Il/OxEuYd693XUOXrPSn9S4iH+4uLE4hgUcNwdLhNXU=";
     };
     date = "2026-10-29";
   };
