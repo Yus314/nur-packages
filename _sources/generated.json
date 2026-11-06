@@ -455,10 +455,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-oywLidew1eTrXzKzeXCqSvDEZkvG1jFU5qbP17OhaEk=",
+            "sha256": "sha256-76+bg8/JRa+LT2S+lceNJk/sqXtVBoGYvYN7t35hUWM=",
             "type": "url",
-            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.2.4133.96.universal.dmg"
+            "url": "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.30.universal.dmg"
         },
-        "version": "8.2.4133.96"
+        "version": "8.3.4191.30"
     }
 }
