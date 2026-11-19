@@ -24,15 +24,15 @@
   };
   claude-code-ide = {
     pname = "claude-code-ide";
-    version = "50a3d55262805d7207889ed429ff30da96fbf68b";
+    version = "8e64f9e7aa4081382eb8bc68fcf52176a68ee286";
     src = fetchFromGitHub {
       owner = "manzaltu";
       repo = "claude-code-ide.el";
-      rev = "50a3d55262805d7207889ed429ff30da96fbf68b";
+      rev = "8e64f9e7aa4081382eb8bc68fcf52176a68ee286";
       fetchSubmodules = false;
-      sha256 = "sha256-u+87PjLh0Mc7C8nvDG758rdgpmjED8G/hO+FE1tj7DU=";
+      sha256 = "sha256-ttJUa5XozD3JnkFGaRNLrIGFeaPocczSiJ5idSApJYY=";
     };
-    date = "2026-09-14";
+    date = "2026-11-18";
   };
   cskk = {
     pname = "cskk";
@@ -260,10 +260,10 @@
   };
   vivaldi-darwin = {
     pname = "vivaldi-darwin";
-    version = "8.3.4191.44";
+    version = "8.3.4191.45";
     src = fetchurl {
-      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.44.universal.dmg";
-      sha256 = "sha256-ff8vWCHTsVyWqoJxXZK7p+toLL2vJyTJMQpRpllSR5A=";
+      url = "https://downloads.vivaldi.com/stable/Vivaldi.8.3.4191.45.universal.dmg";
+      sha256 = "sha256-FkZhd1cbqmOte/H3qRQ5c2sCvL9dlyKUZJTbHvf267c=";
     };
   };
 }
